@@ -1,6 +1,6 @@
 window.__books = window.__books || {};
 
-window.__books.initGrid = function () {
+window.__books.setupGrid = function () {
   var gsap = window.gsap;
   gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -13,7 +13,6 @@ window.__books.initGrid = function () {
   window.__books.smoother = smoother;
 
   var grid = document.querySelector(".grid");
-  var originalItems = Array.from(grid.querySelectorAll(".grid__item"));
   var baseLag = 0.3, lagFactor = 0.15;
   var currentColumnCount = null;
 
@@ -22,15 +21,12 @@ window.__books.initGrid = function () {
     var raw = styles.getPropertyValue("grid-template-columns");
     var num = raw.split(" ").filter(Boolean).length;
     var cols = Array.from({ length: num }, function () { return []; });
+    // Only group visible items
     grid.querySelectorAll(".grid__item").forEach(function (item, i) {
+      if (item.style.display === "none") return;
       cols[i % num].push(item);
     });
     return { columns: cols, numColumns: num };
-  }
-
-  function clearGrid() {
-    grid.querySelectorAll(".grid__column").forEach(function (c) { c.remove(); });
-    originalItems.forEach(function (item) { grid.appendChild(item); });
   }
 
   function buildGrid(columns, num) {
@@ -39,6 +35,7 @@ window.__books.initGrid = function () {
     var maxDist = num % 2 === 1 ? Math.floor(num / 2) : num / 2;
     var containers = [];
     columns.forEach(function (col, i) {
+      if (col.length === 0) return;
       var dist = Math.abs(i - mid);
       var lag = baseLag + (maxDist - dist + 1) * lagFactor;
       var wrap = document.createElement("div");
@@ -55,18 +52,29 @@ window.__books.initGrid = function () {
     containers.forEach(function (c) { smoother.effects(c.el, { speed: 1, lag: c.lag }); });
   }
 
-  function init() {
+  function clearGrid() {
+    grid.querySelectorAll(".grid__column").forEach(function (c) { c.remove(); });
+    // Move all items back to grid
+    document.querySelectorAll(".grid__item").forEach(function (item) {
+      if (item.parentElement !== grid) grid.appendChild(item);
+    });
+  }
+
+  function rebuild() {
     clearGrid();
     var r = groupItemsByColumn();
     currentColumnCount = r.numColumns;
-    applyLag(buildGrid(r.columns, r.numColumns));
+    if (r.columns.some(function (c) { return c.length > 0; })) {
+      applyLag(buildGrid(r.columns, r.numColumns));
+    }
   }
 
   window.addEventListener("resize", function () {
     var styles = window.getComputedStyle(grid);
     var num = styles.getPropertyValue("grid-template-columns").split(" ").filter(Boolean).length;
-    if (num !== currentColumnCount) init();
+    if (num !== currentColumnCount) rebuild();
   });
 
-  return init;
+  window.__books.rebuildGrid = rebuild;
+  return rebuild;
 };

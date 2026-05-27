@@ -174,18 +174,6 @@ for (let r = 0; r < repeats; r++) {
     .tb-result-author { font-size:10px; color:#666; font-family:system-ui,-apple-system,sans-serif; }
     .tb-result-empty { padding:16px 14px; font-size:12px; color:#555; text-align:center; font-family:system-ui,sans-serif; }
 
-    .tb-filter {
-      display:flex; gap:3px;
-    }
-    .tb-filter button {
-      background:rgba(255,255,255,0.03); border:1px solid transparent;
-      color:#666; font-size:11px; padding:6px 13px; border-radius:10px;
-      cursor:pointer; font-family:system-ui,-apple-system,sans-serif;
-      white-space:nowrap; transition:all 0.2s;
-    }
-    .tb-filter button:hover { color:#999; background:rgba(255,255,255,0.05); }
-    .tb-filter button.active { background:rgba(255,255,255,0.08); color:#ccc; border-color:rgba(255,255,255,0.1); }
-
     .tb-search-results::-webkit-scrollbar { width:4px; }
     .tb-search-results::-webkit-scrollbar-track { background:transparent; }
     .tb-search-results::-webkit-scrollbar-thumb { background:rgba(255,255,255,0.08); border-radius:2px; }
@@ -194,7 +182,6 @@ for (let r = 0; r < repeats; r++) {
       .tb { gap:6px; padding:5px; border-radius:14px; top:12px; }
       .tb-search input { width:140px; font-size:12px; padding:7px 12px 7px 30px; }
       .tb-search input:focus { width:160px; }
-      .tb-filter button { font-size:10px; padding:5px 10px; }
       .tb-brand { display:none; }
     }
 
@@ -386,7 +373,7 @@ for (let r = 0; r < repeats; r++) {
         );
       })}
     </div>
-  </main>
+  </div>
 </div>
 
 <div class="tb" id="toolbar">
@@ -395,12 +382,6 @@ for (let r = 0; r < repeats; r++) {
     <svg class="tb-search-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="6" cy="6" r="4"/><path d="M9.5 9.5L13 13"/></svg>
     <input type="text" id="tb-input" placeholder="Search books..." autocomplete="off" />
     <div class="tb-search-results" id="tb-results"></div>
-  </div>
-  <div class="tb-filter">
-    <button class="active" data-filter="all">All</button>
-    <button data-filter="read">Read</button>
-    <button data-filter="tbr">To Read</button>
-    <button data-filter="reading">Reading</button>
   </div>
 </div>
 
@@ -441,19 +422,18 @@ for (let r = 0; r < repeats; r++) {
   window.__books.transitioning = false;
   window.__books.selectedItem = null;
 
-  var init = window.__books.initGrid();
+  var init = window.__books.setupGrid();
+  window.__books.rebuildGrid = window.__books.rebuildGrid || init;
 
   // Toolbar
   var tbInput = document.getElementById("tb-input");
   var tbResults = document.getElementById("tb-results");
-  var activeFilter = "all";
 
   function renderResults(query) {
     if (!query || query.length < 1) { tbResults.classList.remove("on"); return; }
     var q = query.toLowerCase();
     var matches = books.filter(function (b) {
-      var shelfMatch = activeFilter === "all" || b.shelves.indexOf(activeFilter) !== -1;
-      return shelfMatch && (b.title.toLowerCase().indexOf(q) !== -1 || b.author.toLowerCase().indexOf(q) !== -1);
+      return b.title.toLowerCase().indexOf(q) !== -1 || b.author.toLowerCase().indexOf(q) !== -1;
     }).slice(0, 8);
 
     if (matches.length === 0) {
@@ -495,29 +475,6 @@ for (let r = 0; r < repeats; r++) {
       tbInput.value = "";
       window.__books.openDetail(card, book);
     }
-  });
-
-  // Filter buttons
-  document.querySelectorAll(".tb-filter button").forEach(function (btn) {
-    btn.addEventListener("click", function () {
-      document.querySelectorAll(".tb-filter button").forEach(function (b) { b.classList.remove("active"); });
-      btn.classList.add("active");
-      activeFilter = btn.dataset.filter;
-
-      var query = tbInput.value.trim();
-      var cards = document.querySelectorAll(".grid__item");
-      cards.forEach(function (c) {
-        var book = bookMap[c.dataset.id];
-        if (!book) return;
-        var shelfMatch = activeFilter === "all" || book.shelves.indexOf(activeFilter) !== -1;
-        var searchMatch = !query || (book.title.toLowerCase() + " " + book.author.toLowerCase()).indexOf(query.toLowerCase()) !== -1;
-        c.style.display = shelfMatch && searchMatch ? "" : "none";
-      });
-
-      // Re-init grid with filtered items
-      var newInit = window.__books.initGrid();
-      newInit();
-    });
   });
 
   // Click → open detail
