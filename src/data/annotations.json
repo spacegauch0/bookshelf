@@ -1,0 +1,2006 @@
+[
+  {
+    "asin": "B07B4L1B31",
+    "title": "Aquella orilla nuestra",
+    "author": "Elvira Sastre",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1521450523i/39320575._SX120_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/39320575-aquella-orilla-nuestra/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a3N5XJ4IMDGS7R%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "En ese momento no me importó porque estaba esperando, y uno siempre espera porque quiere y en ningún caso porque no tenga alternativa."
+      },
+      {
+        "annotationId": "abdeef835-0851-46de-b9ad-12fabaab8795%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "68%",
+        "text": "Me gusta cuando te abrazo y te siento viento y me creo pájaro."
+      },
+      {
+        "annotationId": "aaf52443a-74ce-43a9-9c57-f0390f529b3a%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "70%",
+        "text": "Mi única bandera es una puerta abierta."
+      },
+      {
+        "annotationId": "ad9a6d3e2-6ad2-439f-a7e3-07c9b6b20d06%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "80%",
+        "text": "Lo que convierte una huida en libertad es la falta de puertas."
+      }
+    ]
+  },
+  {
+    "asin": "B07M86KPX3",
+    "title": "Cambiar de idea (Caballo de Troya 2019, 2)",
+    "author": "Aixa de la Cruz",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1547850177i/43610364._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/43610364-cambiar-de-idea/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "aV67Y6NRZ8JRP%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "Para entender la depresión clínica solo hace falta imaginarse a una persona para quien todas las mañanas de su vida sean como esta."
+      }
+    ]
+  },
+  {
+    "asin": "B0043D2E9U",
+    "title": "CouchDB: The Definitive Guide: Time to Relax (Animal Guide)",
+    "author": "J. Chris Anderson",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328364832i/9799557._SX120_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/9799557-couchdb/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a1LL609OXL3T2H%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "2%",
+        "text": "CouchDB’s design lends itself to modularization and scalability."
+      },
+      {
+        "annotationId": "a1GQYBMDBZ2UBY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "Its internal architecture is fault-tolerant, and failures occur in a controlled environment and are dealt with gracefully."
+      },
+      {
+        "annotationId": "a30QYA6CBMTSOY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "In a nutshell: CouchDB doesn’t let you do things that would get you in trouble later on."
+      },
+      {
+        "annotationId": "a34YBRIOGPO7W2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "CouchDB combines an intuitive document storage model with a powerful query engine"
+      },
+      {
+        "annotationId": "a8CA6IKCAH58N%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "CouchDB’s design borrows heavily from web architecture and the concepts of resources, methods, and representations. It augments this with powerful ways to query, map, combine, and filter your data. Add fault tolerance, extreme scalability, and incremental replication, and CouchDB defines a sweet spot for document databases."
+      },
+      {
+        "annotationId": "a369W4XS0CTZJX%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "CouchDB’s schema-free design unburdens you with a powerful way to aggregate your data after the fact, just like we do with real-world documents."
+      },
+      {
+        "annotationId": "a2MOGFEO8PKLBZ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "When you want to scale out, there are three distinct issues to deal with: scaling read requests, write requests, and data."
+      },
+      {
+        "annotationId": "a2B2H20VALAG0X%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "CouchDB is no silver bullet — but in the area of data storage, it can get you a long way."
+      },
+      {
+        "annotationId": "a1R2COI3EZ2U7M%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "CouchDB replication is one of these building blocks. Its fundamental function is to synchronize two or more CouchDB databases."
+      },
+      {
+        "annotationId": "a1542YAVVVPQNG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "CouchDB replication uses the same REST API all clients use."
+      },
+      {
+        "annotationId": "a75UX9BIKAVRC%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "A core assumption CouchDB makes is that things can go wrong, like network connection troubles, and it is designed for graceful error recovery instead of assuming all will be well."
+      },
+      {
+        "annotationId": "a2OHKB24O0AF1I%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "it just handles errors gracefully and lets you know when actions on your end are required."
+      },
+      {
+        "annotationId": "a2FKUDNOWN9XMK%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "CouchDB promotes simplicity in our applications and helps us naturally build scalable, distributed systems."
+      },
+      {
+        "annotationId": "a2GO5XM2VF65AB%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "CouchDB differs from others by accepting eventual consistency, as opposed to putting absolute consistency ahead of raw availability, like RDBMS or Paxos."
+      },
+      {
+        "annotationId": "a19S90E9N6D3XP%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "Their approaches differ when it comes to which aspects of consistency, availability, or partition tolerance they prioritize."
+      },
+      {
+        "annotationId": "a3BZZZT15R7KC2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "CouchDB’s solution uses replication to propagate application changes across participating nodes. This is a fundamentally different approach from consensus algorithms and relational databases, which operate at different intersections of consistency, availability, and partition tolerance."
+      },
+      {
+        "annotationId": "a1AM1VTTBP9CDN%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "9%",
+        "text": "Map functions may not depend on any information outside of the document. This independence is what allows CouchDB views to be generated incrementally and in parallel."
+      },
+      {
+        "annotationId": "a1LHO0T7SZQZ75%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "9%",
+        "text": "When writing CouchDB map functions, your primary goal is to build an index that stores related data under nearby keys."
+      },
+      {
+        "annotationId": "a2PAM61Y0DYU3E%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "14%",
+        "text": "Everything in CouchDB has an address, a URI, and you use the different HTTP methods to operate on these URIs."
+      },
+      {
+        "annotationId": "aACOCHZ2GDW52%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "14%",
+        "text": "CouchDB uses this revision system, which is also called Multi-Version Concurrency Control (MVCC)."
+      },
+      {
+        "annotationId": "a2YERHVCPL7O3K%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "14%",
+        "text": "One of the aspects of the HTTP protocol that CouchDB uses is that it is stateless."
+      },
+      {
+        "annotationId": "a1U7YKXPP7SYQ2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "15%",
+        "text": "Another reason CouchDB uses MVCC is that this model is simpler conceptually and, as a consequence, easier to program. CouchDB uses less code to make this work, and less code is always good because the ratio of defects per lines of code is static."
+      },
+      {
+        "annotationId": "a2FUH5KYRMZ4MZ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "16%",
+        "text": "What you just did is called local replication in CouchDB terms. You created a local copy of a database."
+      },
+      {
+        "annotationId": "a276OFXX61O3UD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "16%",
+        "text": "Using a local source and a remote target database is called push replication. We’re pushing changes to a remote server."
+      },
+      {
+        "annotationId": "a36GK9QCVGSKJD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "16%",
+        "text": "You can also use a remote source and a local target to do a pull replication."
+      },
+      {
+        "annotationId": "a1KQEMXZTU0LZZ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Finally, you can run remote replication, which is mostly useful for management operations:"
+      },
+      {
+        "annotationId": "a3L93QUC0OENOW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Virtual documents are useful in cases where the presented view will be created by merging the work of different authors;"
+      },
+      {
+        "annotationId": "a3L5L41KXCHVBB%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "CouchDB is designed to work best when there is a one-to-one correspondence between applications and design documents."
+      },
+      {
+        "annotationId": "a3PK3R3VFJH9M3%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Design documents are just like any other CouchDB document — they replicate along with the other documents in their database and track edit conflicts with the rev parameter."
+      },
+      {
+        "annotationId": "aAV5MAE1MUGFB%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "20%",
+        "text": "The most important feature of a view result is that it is sorted by key."
+      },
+      {
+        "annotationId": "a2WPPBUPOJICBY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "20%",
+        "text": "The view result is stored in a B-tree, just like the structure that is responsible for holding your documents."
+      }
+    ]
+  },
+  {
+    "asin": "B0131MQ1NS",
+    "title": "CSS Secrets: Better Solutions to Everyday Web Design Problems",
+    "author": "Lea Verou",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1438700506i/26039236._SX120_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/26039236-css-secrets/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a3PL8U5UCS2GHR%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "12%",
+        "text": "With every abstraction, comes more effort required by someone to start working on our codebase."
+      }
+    ]
+  },
+  {
+    "asin": "B07NXWTR1Q",
+    "title": "Días sin ti",
+    "author": "Elvira Sastre",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1551762616i/44279332._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/44279332-d-as-sin-ti/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a2C3U5SPEVCFCC%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "1%",
+        "text": "A través de la reflexión y de lo que enseña la melancolía, esta novela transita esos caminos por los que todos, en algún momento, tenemos que pasar para comprender que la vida y el amor son sublimes precisamente porque tienen un final."
+      },
+      {
+        "annotationId": "a1WP1Q0Q1BVYZW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "2%",
+        "text": "No debemos forzar el olvido de quien una vez nos cedió su sitio, sino aprender a volver a ese lugar sin angustia e intentar regresar ilesos. Volver, si acaso, con una pizca de tristeza que celebre aquella felicidad tan lejana."
+      },
+      {
+        "annotationId": "a1ARA9ERI6696P%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "Sólo los que van a contracorriente consiguen llegar a su destino; allí donde están todos no hay hueco para nadie más. Y tú te mereces el mejor lugar del mundo."
+      },
+      {
+        "annotationId": "aH5ZG4LQ5C9QF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "hagas lo que hagas, busca el latido."
+      },
+      {
+        "annotationId": "a3UV79BLGY8NNH%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "Como él decía, es mucho mejor perseguir tus sueños que dejar que tus sueños te persigan a ti sin alcanzarte, porque uno nunca se cansa de aquello que le hace feliz."
+      },
+      {
+        "annotationId": "a18E05DHBR6GIJ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "6%",
+        "text": "Dora decía que los recuerdos no son más que sueños en el pasado, pruebas de otras vidas que no nos atrevimos a vivir."
+      },
+      {
+        "annotationId": "a3UKXRZMF5I5JL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "11%",
+        "text": "No trates nunca de obligar a nadie a que se quede a tu lado: dale alas para que pueda decidir libremente cuándo irse y cuándo volver. Ésa será la única manera de asegurarte un amor real y auténtico. El pájaro que vuelve a casa es el que vuela."
+      },
+      {
+        "annotationId": "a3RNG1R96QHYS1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "12%",
+        "text": "Pero el amor no tiene forma, mi vida, ya lo descubrirás, no se coloca en un rincón de nosotros y busca su espacio. El amor te agarra de las manos, te eleva y te suelta sin paracaídas. Ese vértigo es maravilloso."
+      },
+      {
+        "annotationId": "a1U0JNE36W1CE5%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "13%",
+        "text": "El sexo te eleva como un proyectil, hacia o —mejor dicho— contra el cielo; te mantiene en el aire unos instantes y te deja caer como una pluma sobre la realidad. El sexo es bello y absoluto porque en algún momento termina y eso permite que vuelva a empezar, y es que todo aquello que acaba posee una belleza que nunca desaparece. Es un viaje de ida y vuelta, un paisaje efímero que desaparece al abrir los ojos."
+      },
+      {
+        "annotationId": "a1TZCQ7UH9RW9C%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "13%",
+        "text": "El sexo es bello y absoluto porque en algún momento termina y eso permite que vuelva a empezar, y es que todo aquello que acaba posee una belleza que nunca desaparece."
+      },
+      {
+        "annotationId": "aYZYUX0AHP93P%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "13%",
+        "text": "Es necesario comprender la fugacidad de las cosas para poder atraparlas en el instante justo en que nos pasan por delante."
+      },
+      {
+        "annotationId": "a1483QI8MRFU6U%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "13%",
+        "text": "Creo que todo lo bueno que tiene la vida no se ve, sino que se descubre al escarbar la superficie de lo evidente."
+      },
+      {
+        "annotationId": "a2E6IZDWLJEWBD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "14%",
+        "text": "No era difícil intuirnos, descubrir el gusto de cada uno, competir por alcanzar el deseo del otro. Aquella pasión estaba convirtiendo en cenizas mis paredes."
+      },
+      {
+        "annotationId": "aOHIFES97YF3P%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "16%",
+        "text": "Apenas nos conocíamos y, sin embargo, parecía que, al menos en sueños, no podíamos soltarnos."
+      },
+      {
+        "annotationId": "a3I8U7B18E7P5Q%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "16%",
+        "text": "el amor no espera, se queda cuando él decide»."
+      },
+      {
+        "annotationId": "a1OOY9V4RAXQBG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Dentro de mí había algo que me decía que estaba cerrando las puertas a un amor que sí era posible y al que estaba renunciando por cobarde. Estaba renunciando a darle forma a algo que existía y me hacía feliz."
+      },
+      {
+        "annotationId": "a2OUDZED58KG1U%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Hay momentos en los que la vida te coloca en una situación compleja: escoger entre lo que puede hacerte feliz y lo que quieres que te haga feliz."
+      },
+      {
+        "annotationId": "a13GB0CD0PUG95%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Entonces surgen los segundos caminos, esos en los que no se vislumbra el final, ni siquiera el recorrido. Están plagados de miedo y vértigo, de una indecisión que a veces parece que no termina, de dedos acusadores que llaman imprudencia y osadía a tu valor."
+      },
+      {
+        "annotationId": "a1LK2KEDKL2EBS%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Hay que abrir los ojos para poder soñar, no lo olvides: los sueños no se cumplen con los ojos cerrados."
+      },
+      {
+        "annotationId": "a2K92W6WVTZNR1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "la felicidad no es la meta, sino el camino."
+      },
+      {
+        "annotationId": "a2BE9O1DMIRV17%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "La distancia que separa el sexo del amor es, precisamente, la sensación de unión."
+      },
+      {
+        "annotationId": "a2U87QHPS1HTWZ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "A veces te das cuenta de que el amor se abre paso en la cama cuando ella se levanta, se viste y se marcha, y tú quieres irte con ella sin preguntar adónde va."
+      },
+      {
+        "annotationId": "a2W9ICARFERZDM%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "Lo ideal en las relaciones sentimentales que comienzan siendo sólo sexo es trasladar esa pasión animal que nace en la cama al amor, es decir, amar con la misma fuerza y falta de pudor con la que se folla."
+      },
+      {
+        "annotationId": "a2MTII4RG57LYN%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "«El amor se acaba cuando uno de los dos cierra los ojos»."
+      },
+      {
+        "annotationId": "a1HE0BKJSYNLIL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "20%",
+        "text": "Si observar a Marta dormida era mágico, verla despertar era recobrar la fe."
+      },
+      {
+        "annotationId": "a2NC8H1KU1TUAX%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "21%",
+        "text": "Todo viaje de ida tiene una vuelta, todos los abrazos terminan despegándose, los aviones aterrizan, los frigoríficos se vacían, no sé..., las canciones acaban, y no por ello dejan de ser lo que son. ¿No te das cuenta de que hay amor por todas partes?"
+      },
+      {
+        "annotationId": "a1ZDI70L2IR6BH%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "21%",
+        "text": "haga. De eso se trata: no de esquivar esos agujeros, sino de saber dónde se encuentran y seguir tu camino sin miedo a caer en ellos, es decir, aprender a vivir con los finales sin renunciar a otros principios"
+      },
+      {
+        "annotationId": "a3JZ58J08OO2GS%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "22%",
+        "text": "El amor es así, no es un camino llano y simple, sino que está lleno de piedras. Es un acantilado con vistas preciosas, créeme, pero da vértigo por la altura."
+      },
+      {
+        "annotationId": "a3DX1CRZNA4HEK%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "22%",
+        "text": "Porque al final, Gael, sólo quien es capaz de contemplar de frente una herida ajena puede convivir con la propia."
+      },
+      {
+        "annotationId": "a3KCIHOE8GXOG1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "22%",
+        "text": "Muchos creen que, cuando las cosas se complican, la solución más apropiada es irse lejos. No se dan cuenta de que todo aquello que abandonan sigue intacto y en el mismo lugar cuando vuelven. Es como una cama rota. Aunque uno de los dos se vaya, la cama seguirá rota cuando decida volver, porque el que se queda no puede arreglarla solo, es un espacio compartido. Una huida, cariño, no es más que una pausa en el tiempo, a veces irremediable."
+      },
+      {
+        "annotationId": "a2IYMJ3A3PZNTE%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "24%",
+        "text": "Eso es el amor también: la espera, la paciencia que lleva a la tranquilidad de saber que el que viene caminando hacia ti, aunque esté roto, aún hace pie."
+      },
+      {
+        "annotationId": "a1B8OKBRFQ3CJS%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "25%",
+        "text": "Tardé tiempo en darme cuenta de que nadie necesita que lo salven, de que sólo uno es capaz de salvarse a sí mismo."
+      },
+      {
+        "annotationId": "aX1MKRZJ08JA%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "27%",
+        "text": "—¿Sabes cómo me siento a veces contigo? —me preguntó de repente, después de quedarse callada unos segundos. —¿Cómo? —En ese momento abrí todas mis ventanas para que Marta no dudara en entrar. —Como un pasajero que viaja en un tren de esos que tienen paradas de larga duración y se baja en una de ellas a esperar y descubre un pueblo pequeño y precioso, un pueblo desconocido al que probablemente no habría ido nunca si no se hubiera montado en ese tren con paradas, y camina hasta la plaza y se sienta a tomarse un café mientras observa a la gente que vive allí y pasea sin prisa, y se pregunta cómo serán sus vidas y si son felices y si piensan en algún momento en irse de allí, porque cree que a él le pasaría, que él querría huir de un lugar tan alejado de lo que ya conoce. —Lo soltó de carrerilla, haciendo pausas breves para tomar aliento."
+      },
+      {
+        "annotationId": "a1XP03D30YD9U9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "28%",
+        "text": "Hay ciertas personas que aparecen en tu vida para enseñarte a echar de menos, y esa gente es necesaria, pues al arrebatarte algo, también te dan."
+      },
+      {
+        "annotationId": "a2Z8T9MY6ENPD0%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "28%",
+        "text": "A veces uno tiene que buscar un equilibrio, colocar el peso de las decisiones en el sitio justo, aquel que no está en los extremos de la balanza. Así se libra uno de elegir, que no es sino renunciar."
+      },
+      {
+        "annotationId": "a18HPIY17TK4UA%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "38%",
+        "text": "Y es que el amor también consiste en coger al pajarito abandonado con las manos aún tibias y abrir la ventana."
+      },
+      {
+        "annotationId": "a3KVT1UW1FPFX9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "¡La felicidad es tan frágil, mi vida, y la tristeza, sin embargo, tan poderosa! ¿Y sabes por qué? Porque sabemos que las cosas pueden acabarse y eso nos da miedo. Porque la felicidad va y viene, pero la tristeza duerme dentro de nosotros. Y no pasa nada por estar triste, mi amor. Lo que no hay que tener es miedo. Ésa es la única lucha que debe mantener el ser humano."
+      },
+      {
+        "annotationId": "a32FMLG8NOFQVV%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "47%",
+        "text": "Cuando el miedo es tan inmenso, se transforma en una masa negra y nos envuelve. Cuando es así, no hay ningún ser humano capaz de deshacerse de él por sí solo. Si uno está de suerte, tendrá también a alguien cerca que le enseñe a librarse de él. Porque en el fondo no es tan difícil, ¿sabes? Sólo hay que ponerle nombre y mirarlo a la cara. Uno sólo puede deshacerse del miedo si lo siente, porque al hacerlo se dará cuenta de que no existe nada tan grande que pueda derribar lo que somos y lo que tenemos dentro."
+      },
+      {
+        "annotationId": "a1973DX0U3P0OE%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "49%",
+        "text": "Así era. Un hombre con el corazón por bandera, cuya única lucha fue la de amar hasta cuando no había amor."
+      },
+      {
+        "annotationId": "a2UQKYX7OP6WJL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "50%",
+        "text": "Supongo que eso es lo que se siente después de que algo nazca para después quebrarse y desaparecer. Después de eso, todo brota y resurge de nuevo, como la primavera."
+      },
+      {
+        "annotationId": "a30YCJ0LXGR7FL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "51%",
+        "text": "Marta solía decirme que yo era un hombre continente, de esos que tienen tanto que dar que no pueden recibir nada porque no les cabe."
+      },
+      {
+        "annotationId": "a39DH53YCKSEWA%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "52%",
+        "text": "Pero es que los errores existen por algo, están ahí puestos por un motivo, ellos mismos nos buscan para que los cometamos porque es la única forma de aprender."
+      },
+      {
+        "annotationId": "a3DRUNU2JFTB32%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "53%",
+        "text": "¿Sabes qué más me enseñó tu abuelo, Gael? Me enseñó a tener miedo. Sí, no me he equivocado: me enseñó a tener miedo. Me enseñó a recibirlo, a saber cómo llevarlo, a hablar con él, a tolerarlo, a manejarlo e, incluso, a confiar en él, porque el miedo nos enseña cosas de nosotros mismos, cosas que desconocemos o que no queremos ver. El miedo aparece para decir: «Eh, mírame, estoy aquí, en este rincón de tu mente, agazapado; estaba dormido y algo me ha despertado. Eh, ven aquí, dame la mano, sácame de aquí, déjame que respire, que aquí hace demasiado frío. Eh, tú, sí, tú, mírame, ven, tengo algo que decirte, ven, escúchame y deshazte después de este ruido que no me deja dormir»."
+      },
+      {
+        "annotationId": "a2HEZ8OPKGJZ9V%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "54%",
+        "text": "Sin embargo, al momento me di cuenta de que el dolor no es algo comparable. Los sentimientos no se pueden igualar porque son fruto de algo interno de cada uno, y eso que llevamos dentro es inaccesible para el resto. Nadie puede entrar ahí nunca, sólo uno mismo."
+      },
+      {
+        "annotationId": "aPYT4AB31MPEF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "55%",
+        "text": "Es desolador el paisaje que se presenta cuando uno pierde a aquellos que lo acompañan, sin duda; pero Dora me había enseñado que, casi siempre, las ausencias obligadas de aquellos a los que amamos se convierten en su mayor presencia. Y ahora mi amigo me confirmaba que no estamos obligados a olvidar a quien se marcha o a quien desaparece, no, sino que debemos aprender a honrarlos siguiendo nuestra vida como ellos siempre quisieron que hiciéramos: felices, valientes y con los mismos sueños que imaginábamos cuando no teníamos ganas de dormir."
+      },
+      {
+        "annotationId": "a2H8XFOC7NPVZA%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "63%",
+        "text": "Esas cosas le hacían especial. Hay que buscar los detalles, Gaelito. Cuando uno pasa tanto tiempo con alguien debe enamorarse también de sus detalles, porque son los que le hacen único."
+      },
+      {
+        "annotationId": "aA5F916HIJ65Z%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "66%",
+        "text": "Puede que no la hubiera sabido querer o que, al hacerlo, me hubiese olvidado de mí mismo. Ella tampoco había sabido quererme a mí, sin duda, pero ¿podía culparla? ¿Se puede culpar a alguien por no saber hacer algo? ¿Podía culparme a mí por todo aquello?"
+      },
+      {
+        "annotationId": "a1GP48Z3NWA5Y2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "67%",
+        "text": "Dos corazones intactos y unidos son valientes y arriesgados, pero dos corazones rotos juntos, ah, ésos son imbatibles de por vida."
+      },
+      {
+        "annotationId": "a23401VEAWUP9N%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "74%",
+        "text": "Cuando una pierde lo que más quiere, se convierte en alguien sin miedo. Cuando una conoce el dolor de cara, experimenta el sufrimiento más cruel y horroroso, ve el mundo desde el suelo, sabe que no existe nada peor y cambia todo. El ánima, sí, pero también la manera de enfrentarse al mundo."
+      },
+      {
+        "annotationId": "aXSBM5PNORZRC%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "77%",
+        "text": "No sirve de nada huir de lo que nos persigue porque la mayoría de las veces somos nosotros mismos los que nos perseguimos."
+      },
+      {
+        "annotationId": "a3LYMC3RWFQOLJ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "77%",
+        "text": "Debemos aprender a perdonarnos, pues ésa es la gran falta del ser humano. El perdón a uno mismo. Y eso se da cuando, con valentía, nos enfrentamos a aquello que nos persigue. Hay que saber parar, darse la vuelta y escucharnos con paciencia, tratar de entendernos, aprendernos y perdonarnos por el daño que hemos hecho y el daño que hemos dejado que nos hicieran. Es la única manera de sobrevivir."
+      },
+      {
+        "annotationId": "aNBS8EJW0SD6X%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "77%",
+        "text": "La esperanza es maravillosa y trágica a la vez, ¿no crees, cariño? Puede salvarle la vida a uno, pero también condenarle durante un largo tiempo a la existencia más miserable."
+      },
+      {
+        "annotationId": "a26QQNK9H7OMCA%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "78%",
+        "text": "Lo peor de una relación cuando termina es que lo haga de verdad. Que no haya ganas, que no sea algo impuesto u obligado, que, simplemente, no salga lo que antes brotaba con vida y sin esfuerzo."
+      },
+      {
+        "annotationId": "a3V2DIJ23LYFCD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "80%",
+        "text": "En casi todas las ocasiones, el primer paso para aceptar el fin de las cosas es poder despedirse de lo que uno más quiere, y eso no siempre es posible. También es necesaria la comprensión, entender por qué han acabado, encontrar un motivo que nos permita continuar con lo nuevo, eso que tanto miedo da."
+      },
+      {
+        "annotationId": "a1PP8JOL62TPFG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "82%",
+        "text": "Una vez leí en algún sitio que el amor es una especie de fe: dos tienen que creer en él para que exista. No se puede obligar a nadie a que crea, de igual modo que no se puede juzgar al que no lo hace. Cada uno tiene sus trucos para sobrevivir."
+      },
+      {
+        "annotationId": "a2QUAQPR654MFX%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "83%",
+        "text": "«Llevo huyendo toda mi vida y es probable que algún día también me vaya de aquí sin ti, pero ahora sólo quiero estar contigo»."
+      },
+      {
+        "annotationId": "a2G3IOQX11XW75%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "84%",
+        "text": "Si hay algo peor que olvidar a quien amas es amar a alguien que ya no existe."
+      },
+      {
+        "annotationId": "a21N6DZSA3VCSV%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "84%",
+        "text": "¿Son las personas como las vemos? Pensaba que sí. Por eso a veces es tan fácil enamorarse: sólo hay que saber mirar y encontrar lo que uno busca. ¿Alguien es capaz de imaginarse cómo funcionaría el mundo si viéramos exactamente igual a todas las personas? Seguramente, y sin ánimo de ser catastrofista, sufriríamos una guerra eterna. La diferencia es fundamental para evolucionar. De esta manera se puede, aunque cuesta, dejar de estar enamorado de alguien pese a que nunca lo dejemos de querer. Sólo hay que saber verlo como lo que es en este momento, y no como lo recordamos cuando lo amábamos. Ése es el truco. Eso es lo que yo creo: el amor se termina cuando hay más recuerdos que sueños."
+      },
+      {
+        "annotationId": "a3KB06ZJGQEUD1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "86%",
+        "text": "Cuando nos rompemos, resurgimos. Cuando olvidamos, recordamos. Cuando nos enamoramos, nos recuperamos. Y cuando morimos, sí, también vivimos."
+      },
+      {
+        "annotationId": "a2DK4ZU210TBSN%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "89%",
+        "text": "La gente intenta buscarle una solución inmediata a la tristeza, pero pocos saben que no es así como actúa."
+      },
+      {
+        "annotationId": "a1QXSE1B1U07YT%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "89%",
+        "text": "A la tristeza hay que dejarla entrar cuando llama a la puerta, preguntarle los motivos y dejarla que los cuente, sin prisa, sin urgencia, sin interrumpirla ni un momento. Entonces, sólo entonces, cuando termine, se marchará. Así funciona. La tristeza es un sentimiento solitario y también es un consuelo. Pero eso es algo que sólo sabemos los que hemos estado tristes de verdad."
+      },
+      {
+        "annotationId": "a26SSK16JMT21F%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "89%",
+        "text": "Me costó, pero aprendí a perdonar el daño que me había causado la guerra. Supe sobreponerme y derrotarlo a base de dosis de alegría. Porque ésa, cielo mío, es la única forma de superar las cosas: poniéndote de pie y haciéndote más grande que ellas. Seguro que esto ya te lo he dicho en más de una ocasión, ¿verdad?"
+      },
+      {
+        "annotationId": "a3CMLGOTMJMJKW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "90%",
+        "text": "Yo me recuperé, cielo. No me tiembla la voz ni los recuerdos al decirte que volví a ser feliz. ¿Sabes cómo? Valoré todo lo que tenía y también lo que había tenido, que eso es algo que nunca hay que olvidar, aunque sea parte del pasado. Dejé que mi vida me diera lo que tenía preparado para mí. Me di un respiro. Recobré el aire. Es una costumbre tonta que tenemos las personas: recordamos lo que tenemos cuando perdemos algo. A mí sólo me faltaba tu abuelo, sí, pero no en mi corazón; ahí sigue siempre el suyo."
+      },
+      {
+        "annotationId": "aJOZS1EJ5IUQW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "91%",
+        "text": "«¿Ves, Gaelito? El que busca encuentra, mi niño, y el que se permite buscar se encuentra a sí mismo»."
+      },
+      {
+        "annotationId": "a26J3PN87LF3S7%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "93%",
+        "text": "No es justo culpar a los padres de nuestros propios fracasos, nos apoyen o no, del mismo modo que tampoco es justo obligar a un hijo a vivir una vida que no le pertenece. Es esencial, a la hora de relacionarse, conocer la diferencia entre lo que es mejor para uno y lo que es mejor para otro. Lo primero se sabe y lo segundo sólo se piensa. Y yo ahora sé lo importante que es tener cerca a alguien que ya ha pisado por los mismos sitios que tú."
+      },
+      {
+        "annotationId": "a2O1XOKIMTUE2U%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "95%",
+        "text": "«Los días sin ti son días conmigo»,"
+      },
+      {
+        "annotationId": "a1YY8E7J7EGRC%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "96%",
+        "text": "Convivo con la melancolía y la nostalgia. Son dos fieras a las que debo alimentar para que se calmen, pero no son mis enemigas ni me hacen daño. Me cuentan cómo fui, qué fue aquello que sentí, de qué manera viví cuando era otra persona distinta pero igual."
+      },
+      {
+        "annotationId": "a63IJZN5WBYNW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "96%",
+        "text": "Me debo a todo ello, soy quien soy por lo que he vivido, así que no fuerzo el olvido de quien me ha habitado, de quien fue mi universo y ahora es un hueco vacío."
+      },
+      {
+        "annotationId": "a1M1K0IJC0I2I0%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "96%",
+        "text": "El truco es reservarle a toda esa nostalgia el sitio que le pertenece, porque la vida también consiste en aprender a querer estar donde uno está y dejar el anhelo en otros lugares. Si uno no es capaz de ir hacia ellos, entonces vendrán hacia él. Yo he aprendido que, cuando uno se deja llevar, se reencuentra. En eso consiste ser libre."
+      },
+      {
+        "annotationId": "a36WU0AHXVE5P0%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "97%",
+        "text": "Al fin y al cabo, el amor consiste en dejar de pasar frío."
+      }
+    ]
+  },
+  {
+    "asin": "B0010SEN1S",
+    "title": "Design Patterns in Ruby (Addison-Wesley Professional Ruby Series)",
+    "author": "Russ Olsen",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1328352364i/9004080._SX120_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/9004080-design-patterns-in-ruby/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a1RJPX654C1D7C%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "26%",
+        "text": "Both patterns allow us to concentrate the decision about which variation we are using in one or a few places."
+      }
+    ]
+  },
+  {
+    "asin": "B08KKVQGTK",
+    "title": "El fin de la masculinidad",
+    "author": "Luciano Lutereau",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1602046502i/55586905._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/55586905-el-fin-de-la-masculinidad/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a3PU5XKYOHTJ9J%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "9%",
+        "text": "a veces es preciso darse cuenta de que muchos deseos que tenemos están inflados por expectativas presuntuosas que no hacen más que entorpecer nuestra vida."
+      },
+      {
+        "annotationId": "a3OGGBE5TK3ZT%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "Es una idea freudiana, la de que el falo es una barrera contra el autoerotismo, por eso la conclusión va en dirección contraria al sentido común: no se ve pornografía para masturbarse, sino que la masturbación sirve para dejar de ver pornografía."
+      },
+      {
+        "annotationId": "a12OLAWNR22YM4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "20%",
+        "text": "Sin embargo, en el amor no existe la traición. Quien se declara traicionado no hace más que confesar cuánto le cuesta soportar que el amor del otro no sea incondicional."
+      },
+      {
+        "annotationId": "a1PHLG34SQ5S9X%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "20%",
+        "text": "La traición y, por lo tanto, la lealtad, en cambio pertenecen más bien a la política, que tampoco se basa en la incondicionalidad. Incluso en la política se promete más y se pide menos perdón. En toda pareja hay un poco de amor y otra parte de política."
+      },
+      {
+        "annotationId": "a2TC9XF3G4CHPX%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "20%",
+        "text": "El deseo y el poder son irreductibles. Aunque haya un poder de deseo y un deseo de poder. Pero lo cierto es que la ganancia en uno implica pérdida en el otro. Nadie menos deseante que el poderoso, nadie usa menos su poder que quien desea. Para ser deseante siempre hay que ser un poquito impotente (por eso la histeria necesita impotentizar al otro, para que desee) y quienes buscan el poder, lo pagan con su deseo: les encanta mandar, decir lo que hay que hacer, pero no les da el cuerpo para avanzar en nada. Son dos polos, deseo o poder, y cada quien está en una zona intermedia, más cerca de un extremo que del otro. Lo problemático es cómo en los vínculos contemporáneos el polo del poder se vuelve cada vez más prioritario y las relaciones se buscan preestablecer con códigos y reglas, con un debilitamiento mayor del erotismo. Por eso con más frecuencia encontramos teorías sobre psicópatas, perversos y manipuladores, porque eso es lo que obtenemos cuando renunciamos al deseo."
+      },
+      {
+        "annotationId": "aPZYYA741AINF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "20%",
+        "text": "que el tiempo nos condiciona, que neuróticos son aquellos que viven en la fantasía porque en esta no hay tiempo, es decir, siempre es posible hacer tal o cual cosa, con solo quererlo; por eso también podría decirse que neurótico es quien vive aferrado a posibilidades, a mundos posibles, mientras que el tiempo es real, porque nos muestra que a veces queremos ciertas cosas, pero aun así se fue el tren, como le ocurre al muchacho obsesivo que piensa con llamar a su ex para decirle que la ama y, en efecto, lo hace, pero dos años después, cuando ella ya está en pareja con otro y le dice: “¿Cómo puede ser que me lo digas ahora? ¿Sabés el tiempo que te estuve esperando?”. No quiere decir esto que lo adecuado sería que alguien actúe en el tiempo preciso, porque justamente no hay nada más obsesivo que esperar el tiempo oportuno. Como canta Jorge Drexler en su canción “Inoportuna”: “¿Quién sabe cuándo es el momento de decir ‘ahora’?”. En definitiva, en un análisis se aprende a actuar con cierta prisa, al menos para que no sea demasiado tarde."
+      },
+      {
+        "annotationId": "a3OZ84CPAWZHRY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "25%",
+        "text": "niños de hoy son “hijos de hijos”.(3) Quizá hubo una época en la que el amor feminizaba al varón. Hoy en día más bien infantiliza. El varón enamorado se comporta como un bebé que tiene que aprender a prescindir del pecho, a simbolizar la ausencia del otro sin ponerse a gritar y patalear (o salir a acostarse con cualquiera como venganza, o demorar la respuesta de un mensaje como castigo, etc.), que no puede amar sin ponerse ansioso, porque vive la dependencia amorosa como un desvalimiento, porque aún no aprendió a depender sin lastimar, porque si el otro no está es que se fue; y eso no tiene nada que ver con lo femenino, sino con algo más básico, con el modo en que ciertas relaciones no llegan a consolidarse (no porque surja la pregunta acerca de qué somos, sino) porque, como en la más temprana infancia, no se constituye el armado de los ritmos de la pareja, la expectativa de volver a verse y el reencuentro que permite vivir la falta del otro (amar, de vez en cuando, que el otro falte también) y, entonces, se sufre porque el otro no escribe, se cae en la desesperación, se llena ese vacío fatal con fantasías que no son fantasías, con pensamientos obsesionantes que no son obsesivos, celos que no celan, etc., aunque luego llega el mensaje y se siente la más ridícula de las alegrías: la de quien sabía que no era más que cuestión de esperar. No, el amor ya no feminiza; para el varón actual se trata de una regresión a la lactancia."
+      },
+      {
+        "annotationId": "aV6Y3O339HK2I%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "29%",
+        "text": "En el patriarcado actual, el macho no es un hijo sano del padre, sino un nene de mamá, lo que lo hace más misógino aún."
+      },
+      {
+        "annotationId": "a34Q83BLJDX1KP%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "El cambio de vocabulario no es solo una modificación de términos, sino una alteración de su estructura profunda."
+      },
+      {
+        "annotationId": "a1NRZ52KUEIZBW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "Podemos pensar el patriarcado en mil modos, pero un deseo no se decide, sí en ciertos casos se desestima. Es un tema complejísimo. El riesgo es patologizar toda la sexualidad."
+      },
+      {
+        "annotationId": "a1AJ4OHM9LJ8Z7%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "Una de las fantasías fundamentales, según Freud, es la de seducción: su variación inmediata es la de violación. La complejidad del planteo de Freud está en advertir que nadie quiere aquello que desea (en la fantasía), incluso cuando no puede erotizarse sin esa condición. Así y todo hay penetraciones consentidas, este es el misterio, que no se puede resolver invocando a otro misterio: el del amor, como aquello que permite al goce condescender al deseo."
+      },
+      {
+        "annotationId": "aDZHA0CMM3Z7I%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "37%",
+        "text": "Sin atravesar el miedo a decepcionar, no se entra en la adultez."
+      },
+      {
+        "annotationId": "a3IEW1TNCOREE9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "Sin duda la masculinidad es una defensa conformista. La masculinidad es la forma que tiene el varón de compensar la pasividad respecto de otros hombres; en particular, respecto del padre. Por eso suele ocurrir que las demostraciones masculinas parezcan patéticas para las mujeres."
+      },
+      {
+        "annotationId": "a1R6HA053USCRG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "41%",
+        "text": "El amor, en cambio, es la oportunidad para que un varón deconstruya su masculinidad, advierta su carácter artificial e impostado, su torpeza intrínseca. Y así poder amar, por primera vez, sin demostraciones inútiles."
+      },
+      {
+        "annotationId": "a274VGUAN67EN4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "44%",
+        "text": "En este punto cabe hacer una distinción: la masculinidad no es idéntica a la virilidad. Esta última denota los aspectos en que aquella debe ser necesariamente pasiva. Por ejemplo, viril no es el varón que despliega sus destrezas para impresionar a una mujer, sino aquel que puede contenerla sin ponerse ansioso ni culpabilizarla por aquello que la aqueja."
+      },
+      {
+        "annotationId": "a1319E6MPJBY1M%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "50%",
+        "text": "Hace ya un tiempo que circula una noción, que no llega a ser un concepto y tampoco están claras las razones de su surgimiento, que es la “responsabilidad afectiva”. Básicamente se puede resumir en tener cierto cuidado hacia el otro, en definir las situaciones de la manera más clara posible, en no generar ilusiones vanas, etc."
+      },
+      {
+        "annotationId": "a2BOL0B01UVXXH%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "51%",
+        "text": "A eso se dedica la ciencia: a realizar fantasías. Después de todo, no importa el modo en que hayamos sido concebidos, todos somos hijos de fantasías."
+      },
+      {
+        "annotationId": "a6CTK7RC9CTP8%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "52%",
+        "text": "Quizá “deconstruir” el amor romántico no sea ir más allá de esa experiencia, sino hacerse la pregunta de por qué no se puede jugar con el romanticismo, en el que a todos nos toca el papel de seducidos."
+      },
+      {
+        "annotationId": "a3REK2Q24C157X%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "53%",
+        "text": "Con el padre es toda relación en la que se espera algo del otro; con la madre, en cambio, es la relación en la que se quiere, simplemente, que el otro quiera, y, por lo tanto, me quiera."
+      },
+      {
+        "annotationId": "a1DYR3DPMRV3N2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "54%",
+        "text": "La sociedad establece ciertos ideales de conducta y todo aquello que no se enmarque en los mismos corre el riesgo de considerarse anormal o patológico."
+      },
+      {
+        "annotationId": "a1N6YDCNADT11S%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "55%",
+        "text": "Una mujer sola, por decisión o circunstancias de la vida, es sospechosa de poseer algún tipo de defecto, ya sea atribuible al carácter, la apariencia física, el tipo clínico (ya sea neurosis o psicosis) o algún otro tipo de falla o defecto que determine su situación."
+      },
+      {
+        "annotationId": "a2J9FER6J5ZE9T%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "55%",
+        "text": "Por un lado, no deja de ser cierto que la capacidad de cumplir la demanda de amor real es una definición de la neurosis, ya que este tipo clínico se caracteriza por la fijación de la libido en los objetos de la fantasía, y es así que un análisis es por sobre todo análisis de las fantasías. Sin embargo debemos convenir que tampoco resulta sencillo asegurar que todas las personas que están en una relación de pareja sean capaces de cumplir la demanda de “amor real”, no son cosas que vayan de la mano necesariamente. Por el contrario, muchas personas están en pareja para evitar las demandas del amor real, para negarlas, para mantenerse cómodamente estables en su neurosis. No por casualidad es un hecho frecuente que algunas personas se separen al comenzar un análisis, ya que una pareja también es un síntoma (siempre lo es) y hay síntomas y síntomas."
+      },
+      {
+        "annotationId": "a2SCNVIJS64O76%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "55%",
+        "text": "Por eso no hay ninguna vara desde el psicoanálisis para medir la normalidad, la situación ideal, ni establecer ningún criterio sobre lo que sería esperable, en el sentido de la manera en que cada uno se las arregla para soportar ..."
+      },
+      {
+        "annotationId": "aBHK5DSXU9B1G%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "56%",
+        "text": "Para hacer el pasaje a lo público, una pareja tiene que reprimir su intimidad. Las parejas más armónicas en sociedad suelen ser más disfuncionales a solas."
+      },
+      {
+        "annotationId": "a1P0JWHRO9TY6Z%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "56%",
+        "text": "Por otro lado, “disfuncional” no es algo patológico, sino que remite al pacto inconsciente que puede unir a dos personas. En realidad, todo lo que une a dos personas es “patológico” (del griego pathos, pasión)."
+      },
+      {
+        "annotationId": "a26Q1JK6P7IUY2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "57%",
+        "text": "La pareja es conflicto. Solo a través de las peleas que toca atravesar, una relación se consolida. Hay dos tipos de conflictos: los que se repiten y los que se transforman. La salud es que un conflicto se transforme en otro."
+      },
+      {
+        "annotationId": "a3GR6U6SCMVI9E%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "58%",
+        "text": "Hace un tiempo escuchaba a (Graciela) Borges en una entrevista decir: “Una mujer nunca deja si no la dejaron antes”. Es una idea muy clínica, que explica también el saber popular que dice que las mujeres hacen el duelo durante las relaciones. En ese sentido, el temor de los varones está justificado, solo que es reactivo: ellas pueden dejarlos, porque ellos las dejaron antes, por ejemplo, cuando no les prestaron atención o no las escucharon. Así la inseguridad no es un rasgo de carácter, sino un autorreproche encubierto y la idea de ser dejado por otra persona es un castigo fantaseado. Este temor a veces se expresa en otra fantasía: que si la relación se consolida, entonces se van a aburrir, el sexo se volverá monótono, el deseo se perderá. Y sin duda eso puede pasar (y suele pasar), pero ¿es solo un deseo sexual lo que un varón puede darle a una mujer? Esa fantasía es la mejor forma de dejarla."
+      },
+      {
+        "annotationId": "a62M6RV1KDW9D%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "60%",
+        "text": "Ideas del estilo “recuperar la pasión” o “volver a encontrarse” en una pareja son propias de una sociedad que inventó el microondas. Cada sociedad ama según cómo elabora sus alimentos. En otra época el pan se consumía fresco en el día, al día siguiente se lo hacía tostadas y, luego, budín de pan. El pan nunca se tiraba. Hoy en día se lo freeza y luego se lo recalienta en el microondas; así queda gomoso y, después, se lo tira. Así son nuestros amores: recalentados y gomosos. Netflix es el microondas de las parejas contemporáneas."
+      },
+      {
+        "annotationId": "a3H2F7JT394OMN%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "62%",
+        "text": "No obstante, nuestra época es especialmente inclemente con esta expectativa regresiva. En medios de comunicación se transmite la idea de una pareja que, para ser madura, tiene que incluir a dos individuos independientes (algo más parecido a una empresa que a una relación de pareja), antes que una elaboración de la dependencia temprana. Asimismo, se confunde la independencia con el rechazo de aspectos inmaduros que se conservan durante toda la vida. Esta es una falsa madurez."
+      },
+      {
+        "annotationId": "a19U3X8E6TNUJJ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "64%",
+        "text": "En todo caso, antes que preguntar por qué no duran las parejas, la pregunta debería reformularse en los siguientes términos: ¿por qué una elección tan importante se supedita a componentes tan frágiles?"
+      },
+      {
+        "annotationId": "a2NRZO2VNXQ5JP%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "64%",
+        "text": "En este punto, quizá el problema contemporáneo de muchas parejas se deba más al enfrascamiento narcisista del amor (verse a sí mismo en el otro; como dice una canción de Los encargados: “necesito que me ames para poder verme”, antes que ver al otro) y a un deseo débil (basado en la identificación histérica que implica compartir proyectos, hacer cosas parecidas, etc.)."
+      },
+      {
+        "annotationId": "a1MFQTLKZB3FAG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "64%",
+        "text": "Al reconocimiento de estas modificaciones del amar y el desear es que los psicoanalistas llamamos “castración” y, si una relación de pareja no incluye la castración, solo le queda esperar su “fecha de vencimiento”."
+      },
+      {
+        "annotationId": "a2TDF7DUQ6BZ2Y%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "65%",
+        "text": "Un niño deja de hacer algo porque no le sale, y eso no habla de su intolerancia a la frustración, sino de que no disfruta de explorar, de ver qué ocurre después. Es el mismo aburrimiento que agobia a la mujer casada que empieza una historia con un compañero de trabajo. “¡Conflicto!”, podría pensar el desprevenido y diagnosticar duda obsesiva entre el marido y el amante. Ni siquiera. Es simple: la única manera de sostener ese trabajo es erotizando la escena, con un deseo que despierte un poco. El deseo no como causa, sino como recurso onanista. El típico “pajerismo” de las oficinas. Esta erotización de la vida cotidiana es una defensa desesperada contra el aburrimiento, cuando ya no hay nada mejor que vivir."
+      },
+      {
+        "annotationId": "a104R97JF43X5Y%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "66%",
+        "text": "La noción de ansiedad es valiosa. No es lo mismo que la angustia, que es profunda y tiene espesor; mientras que la ansiedad es un afecto de superficie, de exterioridad, en la medida en que el ansioso busca siempre la respuesta afuera y es compulsivo: mira el reloj a cada segundo, busca más allá lo que tiene en la mano, etc."
+      },
+      {
+        "annotationId": "a30ZYN0S5RQR2X%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "67%",
+        "text": "Ahora bien, ¿qué sería lo sintomático de que alguien se enamora de mujeres por las que siente pena, a las que les da culpa dejar, etc.? Respuesta: si un varón se engancha con el sufrimiento de una mujer, tarde o temprano la va a hacer sufrir, porque no podrá compadecerse sin ser, al mismo tiempo, su verdugo, sin necesitar que sufra. Muchos de los casos actuales de violencia de género y maltrato hacia las mujeres no tienen que ver con psicopatías en sentido estricto, sino con el modo en que el varón obsesivo sintomatiza el amor."
+      },
+      {
+        "annotationId": "a24086A2JMKU2M%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "67%",
+        "text": "La pareja varón obsesivo con mujer víctima, cuyo reverso es varón que se enoja y mujer que se alivia, es una de las estructuras de relación más habituales y difíciles de resolver en un análisis."
+      },
+      {
+        "annotationId": "a1XDHLJB9R93OC%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "69%",
+        "text": "Otra cosa que noté en este tiempo de atender parejas es que hay una defensa contra la alianza inconsciente con el analista: que los dos se unan contra el mismo enemigo. Si dos personas pueden reírse juntos, que no es igual a reírse de lo mismo, todavía hay algo sano y reparable. Lo primero que una pareja pierde cuando ya no se quiere es el sentido del humor. Lo segundo es la complicidad lingüística."
+      },
+      {
+        "annotationId": "aK0U5WYUEUAIO%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "74%",
+        "text": "Un varón no madura espontáneamente. Madura a partir del encuentro con una mujer."
+      },
+      {
+        "annotationId": "a1KJ1O93HIP7QC%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "77%",
+        "text": "Las relaciones necesitan el conflicto, la discordia, como una forma de ponerse a prueba y desarrollarse; mientras que si esta hostilidad aparece cuando explota y se manifiesta como agresión, eso implicaría que el vínculo se resintiera."
+      },
+      {
+        "annotationId": "a3PSC949JL3PB5%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "82%",
+        "text": "Ser neurótico es un privilegio en estas épocas, aquí estamos en presencia de otra cosa y de una constante en la queja femenina respecto de la posición masculina: la imposibilidad para asumir las consecuencias de un acto."
+      },
+      {
+        "annotationId": "a3I4NMH3WO2ZDP%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "93%",
+        "text": "Si el obsesivo está del lado del entendimiento, la obsesiva está del lado de la voluntad, que es la capacidad de querer. Si la histeria femenina consiste en no querer lo que se desea, y el amor femenino es pura obstinación, la obsesión en la mujer, el modo femenino de responder al acto, es la raíz para entender esas dos variaciones. Esto también demuestra que Dios es mujer. *"
+      },
+      {
+        "annotationId": "aYK4NA0NV1EV9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "95%",
+        "text": "Le pregunto si conoce a su esposa. Me dice que se aburre con ella. Le digo que él se aburre, ¿por qué querría conocer a otra mujer? ¿Necesita que lo diviertan, antes de saber qué lo une a su aburrimiento? Le digo que está casado con su manera de aburrirse cuando algo no lo estimula. Qué forma tonta de actuar, por reflejo, como los animales, dice. Cree que se pasó toda la vida buscando un cambio. Y así cambia futuro por pasado. Cuánto trabajo de análisis implica distinguir entre querer algo diferente y no querer algo, entre elegir lo que venga para reprimir lo que no se quiere y desear, entre desear lo que no se quiere y redescubrir la posibilidad de elección."
+      },
+      {
+        "annotationId": "a3QI2QVX95L0A2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "97%",
+        "text": "Para que no tener algo no sea lo mismo que te falte y para que algo pueda faltarte sin querer tenerlo, para eso sirve el psicoanálisis."
+      },
+      {
+        "annotationId": "a8UJC2RRXN9SB%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "97%",
+        "text": "No es lo mismo quedarse callado que elegir no decir algo. Es una distinción simple, pero muy importante. Elegir hacer silencio a veces puede ser más liberador que hablar y tratar de decirlo todo."
+      },
+      {
+        "annotationId": "a3TUEJ17VOCPL1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "97%",
+        "text": "Para poder decir que no sin enfermarse, para poder decir que no sin enojarse, para poder decir que no cuando se quiere decir que no. Para eso sirve el psicoanálisis."
+      }
+    ]
+  },
+  {
+    "asin": "B07QNDPZ9Z",
+    "title": "El fin del amor: querer y coger en el siglo XXI",
+    "author": "Tamara Tenenbaum",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1555680338i/45174180._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/45174180-el-fin-del-amor/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a2NGONFKR15NQT%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "16%",
+        "text": "La violencia que sufríamos desde chicas en la calle y en cualquier parte implicaba que las mujeres desarrollábamos una relación completamente peculiar con el espacio público, con la noche, con el mundo. Los espacios que para un varón eran un parque de diversiones para nosotras eran un campo minado, y hasta que esa conversación no se empezó a dar en la web, muchas sencillamente lo dábamos por hecho, como si fuera un accidente geográfico inevitable."
+      },
+      {
+        "annotationId": "a1X1ABAAGIEB76%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "Nadie —o casi nadie— diría hoy que es “obligatorio” tener una pareja con la que sacarse fotos para Instagram riendo hacia la nada entre sábanas blanquísimas o comiendo tostadas con palta: nadie dice que es inmoral no hacerlo ni que tu familia te va a dejar de hablar si no lo hacés (como puede suceder en mi barrio natal si decidís desviarte de la norma), del mismo modo que nadie te pone una pistola en la cabeza para obligarte a ser flaca y exitosa."
+      },
+      {
+        "annotationId": "aCO3TXUCTDJU9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "23%",
+        "text": "No recuerdo haber leído sobre la dificultad de mantener la libido en el contexto de precariedad laboral en el que vivimos, con mil millones de changas, alquileres que pagar y ninguna garantía para dormir tranquilas y, también, desear tranquilas."
+      },
+      {
+        "annotationId": "a1XDX39L9U9L2W%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "23%",
+        "text": "Tu pareja, de pronto, debe satisfacer todas tus necesidades: tiene que ser tu mejor amigo, tu confidente, tu semental, tu compañero de viaje. No hay cosas que no puedas hablar con él (o ella), ni lugares a los que prefieras ir con otra persona, ni acontecimientos que no quieras compartir con él (o ella): es todo tu universo."
+      },
+      {
+        "annotationId": "a3MJXCTROOSXJF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "23%",
+        "text": "Si tu pareja no te hace feliz 24/7, no sirve y tenés que descartarla como un vaso de plástico usado; si tenés dudas, momentos de hartazgo o de aburrimiento, estás desempeñándote de manera subestándar en esto del amor."
+      },
+      {
+        "annotationId": "a1CR1EGXV34EPY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "24%",
+        "text": "Ninguno de estos dominios, además, aparece como un espacio para la disrupción: el sexo es salud, dormir la siesta es salud, tener una pareja feliz es salud. ¿Y hay algo en la vida mejor que la salud? ¿Vos no querés ser más feliz de lo que sos? ¿No querés vivir más? ¿No querés estar mejor? Es el imperativo del goce del que habla el filósofo Slavoj Žižek, la idea de que ser feliz hoy tiene que ver más con la obligación que con el deseo. ¿Es posible salir de esto? ¿Se puede querer otra cosa que ser cada vez más y más feliz?"
+      },
+      {
+        "annotationId": "a10AB0WI05KERY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "25%",
+        "text": "“No queremos ser vulnerables, lastimar ni salir lastimados. El amor requiere un compromiso grande, pero evitamos este compromiso porque conduce a la herida. Evitamos la pasión y enamorarse duele demasiado”,"
+      },
+      {
+        "annotationId": "aV4TFP7J17QTD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "26%",
+        "text": "Y no solo eso: a muchas de nosotras —a las heterosexuales, al menos— todavía nos cuesta pensar que la soltería no es un estado de ansiedad, un estado de carencia afectiva del que hay que salir lo antes posible."
+      },
+      {
+        "annotationId": "a17KXGBWPS7JEW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "26%",
+        "text": "Por eso no es un asunto psicológico e individual: ni las amistades ni los proyectos ni las deconstrucciones se hacen en soledad."
+      },
+      {
+        "annotationId": "a2H4DY652OX6FD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "28%",
+        "text": "no existe un “deseo” puro separado de esos condicionamientos y que la libertad, como explica Sartre, solo puede entenderse en una situación y jamás de manera abstracta e impermeable a las tensiones del mundo."
+      },
+      {
+        "annotationId": "a29XBVVW8VZ3PF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "29%",
+        "text": "los matrimonios “de antes” no duraban a base de amores más sólidos sino de hipocresía y desigualdad."
+      },
+      {
+        "annotationId": "aQYCZLWXHRS9G%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "29%",
+        "text": "De todas las peleas que dio y perdió la Iglesia católica en la Argentina ninguna se olvidó tan rápidamente como esa; el consenso de que las familias y los hijos sobreviven a los divorcios e, incluso, la idea de que un divorcio deseado es preferible a un matrimonio sin amor, hoy es rotundo."
+      },
+      {
+        "annotationId": "a3KAODUJOWGMC4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "30%",
+        "text": "Ninguno de los dos se define como celoso, pero hay un acuerdo mutuo que, por lo que investigo después, es muy importante para quienes practican diversas formas de apertura sexual o amorosa: los pactos consensuados se respetan."
+      },
+      {
+        "annotationId": "a28DM1GLS0IQRC%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "31%",
+        "text": "La aparición de la monogamia está vinculada con la agricultura, el sedentarismo, una división sexual del trabajo mucho más marcada (donde el trabajo doméstico, afectivo y sexual que realiza la mujer en su hogar ni siquiera es reconocido como tal) y la subordinación económica, política y sexual de las mujeres hacia hombres, los únicos capaces de ser dueños de la tierra."
+      },
+      {
+        "annotationId": "a23LXAJ5P4Y07E%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "31%",
+        "text": "La mujer que conoce otros cuerpos conoce el mundo. Circula, experimenta, sabe lo que tiene y lo que puede tener. Aprende el deseo, la búsqueda, a preguntarse por las condiciones de su propia vida, a cuestionarlas, a no tomarlas como algo dado e inquebrantable."
+      },
+      {
+        "annotationId": "a1N5EP0FU1OPGH%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "A medida que avanzó la Modernidad, las mujeres fueron logrando derribar las restricciones explícitas: accedieron a la posibilidad de trabajar (aun si, como también afirma Federici, es dudoso desde la perspectiva marxista que ser explotada laboralmente sea “liberador”)"
+      },
+      {
+        "annotationId": "a3M12OMTBHFIP5%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "Un varón desempleado todavía pasa menos horas dedicadas a tareas reproductivas y de cuidado que una mujer que trabaja a tiempo completo.("
+      },
+      {
+        "annotationId": "a3STR81IQYXM3Q%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "En Teoría King Kong, Virginie Despentes habla sobre el modo en que el miedo a la violación forja el destino femenino. Incluso llama a “perderle el miedo”: aceptar la violación como el rito iniciático del patriarcado, pero no permitir que ese fantasma coarte tu libertad ni te acorrale en el lugar de la víctima inmóvil."
+      },
+      {
+        "annotationId": "a3ARNZEOX0R7KI%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "La asociación entre la libertad sexual femenina y el peligro es profunda y omnipresente: de hecho, si lo pensamos, las únicas mujeres históricamente autorizadas a vivir entre ellas y sin varones eran las monjas, que habían renunciado a los placeres de la carne."
+      },
+      {
+        "annotationId": "a1B5OMPM8XSOI7%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "33%",
+        "text": "Es decir, muchísimas menos chicas fueron asesinadas por pasar bajo puentes oscuros, irse de mochileras, vivir solas o incluso ejercer la prostitución que por entrar en vínculos sexoafectivos con varones."
+      },
+      {
+        "annotationId": "a1Y1JEO09IQ182%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "33%",
+        "text": "Elegir vivir en soledad parece ser hoy un privilegio de clase, tanto para las mujeres como para los varones pero, si seguimos mirando, encontramos otro dato significativo. Los varones que viven solos son más que las mujeres que viven solas en todos los segmentos etarios menos en uno: el de los mayores de 65. De las mujeres que viven solas, el 58,6% está en esa franja; de los varones que viven solos, solo el 33,4% tiene esa edad."
+      },
+      {
+        "annotationId": "a1FMSCU62AP24%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "33%",
+        "text": "La monogamia no es, entonces, solo una abstracción o un deseo, una forma intelectual o inmaterial de pensar el amor: es una experiencia que será distinta dependiendo de las posibilidades económicas de una mujer y de las características sociales y culturales del medio en el que haya crecido."
+      },
+      {
+        "annotationId": "a1NEZWJ5R1KE0Q%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "“El amor que aquí se llama libre”, escribe refiriéndose a los diversos autores de ensayos del libro, “es aquel que cuestiona toda doble moral, hipocresía o cinismo."
+      },
+      {
+        "annotationId": "aYTQRS5VQA69C%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "Esa sería la ética del amante anarquista: reprimirse sería una forma inauténtica del vivir. El deseo implica siempre una paradoja: lo percibimos como algo que nos pasa, un accidente que nos atraviesa, pero tenemos que responsabilizarnos por él. Si para la tradición monógama judeocristiana hacerse cargo del deseo implicaba hacerlo entrar en un molde específico y reprimir todo lo que no lograra encajar ahí, para el amor libre hacerse cargo del deseo es aceptar su volatilidad y su dificultad para entrar en patrones establecidos e incluso más: permitir que esa cualidad esencialmente disruptiva del deseo sea molde y motor de nuestros vínculos."
+      },
+      {
+        "annotationId": "aMEPN2O5M6RTV%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "Sin embargo, no se trata solo de comprometerse con el deseo de uno: al igual que Deborah Anapol y otros activistas que leo, Baigorria parece tener mucho cuidado de que su versión del amor libre no se confunda con una especie de fantasía liberal individualista, una apología de coger sin reconocer al otro como persona capaz de querer y de sufrir."
+      },
+      {
+        "annotationId": "aF9W7CM96CAPT%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "De hecho, es probable que la parte más complicada (y a la vez la más interesante en términos de la emancipación de los sujetos) radique en tomarse en serio el deseo del otro, es decir, desprenderse de la convicción de que ese otro me pertenece y probar modos del amor que prescindan de esa noción sin dejar de lado eso que Baigorria llama con mucha dulzura querer bien."
+      },
+      {
+        "annotationId": "a132TPH5EZ0J9G%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "36%",
+        "text": "No se trata de no tener valores, sino de vivir de acuerdo con los principios que vengan de nosotros y no desde afuera: es darnos a nosotros mismos nuestras propias leyes."
+      },
+      {
+        "annotationId": "a2JR0JNUMYLIBI%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "36%",
+        "text": "Desde el punto de vista del deseo, la monogamia puede ser una forma de vida difícil. La potencia subversiva del deseo, su relación física y metafísica con la libertad, radica en su imprevisibilidad. Si es complicado decir qué queremos ahora, afirmar lo que vamos a querer en un futuro, cercano o lejano, parece casi imposible."
+      },
+      {
+        "annotationId": "a1UV60NF7J7ZX%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "37%",
+        "text": "No hay ninguna unión que nos salve de la condición precaria de la vida y de las relaciones humanas. Un papel firmado o una promesa de amor no son suficientes para evitar el hecho de que todo se puede romper en cualquier momento"
+      },
+      {
+        "annotationId": "a3F6F080Q5K2CD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "39%",
+        "text": "quienes se apartan de lo que se espera de ellos están más dispuestos a priorizar su deseo y su felicidad por sobre las convenciones y ese es un buen camino."
+      },
+      {
+        "annotationId": "a1CBOJ3X9FKUGV%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "39%",
+        "text": "la marginalidad es un espacio de resistencia desde el que es posible la construcción de una perspectiva radical sobre la sociedad."
+      },
+      {
+        "annotationId": "a23R4IOKDETYOF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "39%",
+        "text": "Sin hacer juicios de valor, Anapol sostiene que una pareja de viejo paradigma puede ser abierta o cerrada pero lo que la define es la jerarquización de ese vínculo de pareja por sobre todos los demás que cada una de esas personas tiene;"
+      },
+      {
+        "annotationId": "a16I7LVV18K7D5%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "Puede parecer un detalle menor pero, para mí, esa capacidad de transformar vínculos en lugar de descartarlos es un aprendizaje importante que desafía prejuicios antiguos sobre lo que se supone que debemos sentir por nuestros antiguos amantes y los de nuestra pareja."
+      },
+      {
+        "annotationId": "aLCMZR6VGHDU4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "esa capacidad de transformar vínculos en lugar de descartarlos es un aprendizaje importante que desafía prejuicios antiguos sobre lo que se supone que debemos sentir por nuestros antiguos amantes y los de nuestra pareja."
+      },
+      {
+        "annotationId": "a32N7YKCXVQEVU%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "El fin del amor romántico no tiene por qué ser, como se pensó históricamente, el fin del amor."
+      },
+      {
+        "annotationId": "a2KI5XS6ZTWGL6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "Lo que entiendo por nuevo paradigma es todo esto: la apuesta por la amistad como política, la construcción de lazos afectivos consensuados y serios (en el sentido de importantes) que, sin embargo, tengan cierta flexibilidad, en los que haya responsabilidad pero también comprensión, en los que puede haber sexo o bien puede no haberlo. Construir comunidades de amor y amistad que sean contenedoras, sólidas, aunque acepten la condición precaria de la existencia y de los vínculos."
+      },
+      {
+        "annotationId": "a2RLGWN6OR70HF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "43%",
+        "text": "En el siglo XXI, para la mayoría de nosotros, ser soltero significa coger con mucha gente: en simultáneo o de forma sucesiva, en continuado o cada tanto. Coger con amigos, con amigos de amigos, con personas que conocimos en un bar o en Internet, con ex parejas, con alguno que quizás se convierta en una futura pareja (cosa que las más de las veces no ocurre), con personas que están en otras parejas, abiertas o cerradas: con cualquiera. Eso no siempre fue así (para las mujeres), ni siquiera es así desde hace mucho y desde hace mucho menos que es algo blanqueado socialmente."
+      },
+      {
+        "annotationId": "a1B16RQH5FIPKI%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "46%",
+        "text": "el deseo no puede ser perfectamente simétrico todas las veces, y casi diría que no lo es ninguna vez."
+      },
+      {
+        "annotationId": "a3T77FMYA9IFAS%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "46%",
+        "text": "Sin una resistencia, sin una demanda del otro lado, sin un sujeto con su propia entidad, coger es masturbarse con una muñeca inflable."
+      },
+      {
+        "annotationId": "a2KR5JMB95952F%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "47%",
+        "text": "La Chica Cool tiene un lazo histórico con la idea de la mujer sumisa que lo soporta todo, incluso la violencia, pero no proviene solo de ahí. Es también un efecto de la emergencia de la lógica del mercado en el ámbito sexoafectivo, de la necesidad de aumentar tu valor siendo no la más gozadora sino la más gauchita: nunca la loca, siempre la copada. Es la misma lógica que implica que tratemos el encuentro con el otro como una transacción en la que tomo solo lo que me sirve y me despreocupo del daño que pueda hacer en el camino porque, total, “no es mi responsabilidad, si no somos novios ni nada”. No es la soltería, querida compañera, lo que te duele; no es el sexo casual, ni la fluidez de los vínculos, ni lo efímero: es la dinámica de la oferta y la demanda que, encima, igual que en el mercado de bienes y servicios, está inclinada de forma clara en una sola dirección."
+      },
+      {
+        "annotationId": "a3F96DNVKF78QY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "50%",
+        "text": "Las respuestas de Illouz son duras, en especial para las que a veces olvidamos que la deconstrucción no es un camino que tiene un comienzo y un punto de llegada sino una mirada sobre la vida que nunca termina."
+      },
+      {
+        "annotationId": "a2NLY4YQBDJSK6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "53%",
+        "text": "La libertad es difícil y peligrosa siempre y en parte allí radica su gracia; pero sería hermoso que fuera un poco, aunque más no sea un poquito menos cruel a veces."
+      },
+      {
+        "annotationId": "a2RU6P9ORTARKB%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "54%",
+        "text": "me quedé pensando si no hay formas de encarnar esos principios —la responsabilidad, el cuidado del otro, el corrimiento del interés propio— no solo por fuera de la pareja como forma sino incluso por fuera de lo que entendemos como vínculos estables. Siento que tiene que existir una manera de que eso que llamamos soltería sea también amorosa y cuidadosa; que alguien con quien me veo una vez por año me ponga el hombro y la oreja en una noche difícil aunque no pinte sexo; animarme a estar disponible y abierta para las personas en mi vida incluso si mi relación con ellas no tiene nombre (aun) ni permanencia; que no me parezca de freak que un hombre con el que comparto la cama y no mucho más necesite contarme algo o pedirme algo fuera de ella. Pensar de forma más continua el amor y la amistad, ese modelo de unión libre que tenemos a mano que no depende de reglas claras ni de verse todos los días ni de un “proyecto en común” sino de la libertad."
+      },
+      {
+        "annotationId": "a2HF9I00AM0NIN%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "54%",
+        "text": "Dejar atrás la lógica del consumo de personas, del mercado donde nos medimos y nos tasamos mutuamente, y probar mirar de frente el deseo propio y el del otro: cuando nos calienta pero también cuando nos molesta, nos enoja o nos desconcierta."
+      },
+      {
+        "annotationId": "aK8IH6ZJZJH5J%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "60%",
+        "text": "Un dato curioso: Rappaport me contó que el Obelisco es el lugar donde más crushes (que dos personas se gusten mutuamente en Happn) se producen en todo el mundo."
+      },
+      {
+        "annotationId": "aVHMUC4OCWHD2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "67%",
+        "text": "Más allá de esta ventaja, creo que los encuentros con gente random podrían ser positivos no porque contribuyan a acrecentar nuestras opciones sino porque son una oportunidad para generar vínculos con personas diversas que de otro manera no conoceríamos, y eso podría implicar entrar en contacto con otras realidades y mejorar nuestras capacidades empáticas."
+      },
+      {
+        "annotationId": "a2JT8O92U0E21P%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "68%",
+        "text": "Vuelvo siempre a esto, a la empatía, que no tiene sinónimos ni reemplazos. Nos vamos a vincular en Internet cada vez más seguido, y de formas que hoy ni siquiera imaginamos, pero necesitamos pensar cómo hacerlo sin precarizarnos mutuamente, ni nuestros vínculos, y sin que el hecho de que el otro no esté presente implique olvidarnos de que existe de verdad, que siente y que sufre."
+      },
+      {
+        "annotationId": "a23P1CK9NM1001%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "68%",
+        "text": "Necesitamos rebelarnos contra eso que llamamos comodidad y es en realidad miedo a la interacción humana, tanto en términos individuales como colectivos; la única escuela para hablar con chicas es hablar con chicas, la única escuela para hablar por teléfono es hablar por teléfono, la única escuela para coger es coger."
+      },
+      {
+        "annotationId": "aVOP6OPRVEB7O%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "78%",
+        "text": "De esto hay que llenar el mundo: de historias de mujeres que no amen ni odien sus cuerpos, y que los acepten como son en cualquier formato; de mujeres que tengan la libertad, la libertad verdadera, de hablar de otra cosa."
+      },
+      {
+        "annotationId": "a3LGG64E4VH7G1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "82%",
+        "text": "La mirada deconstructiva propone desandar nuestras propias prácticas, cuestionar nuestros vínculos más queridos y nuestras convicciones más arraigadas."
+      },
+      {
+        "annotationId": "a13PXX5SNPPUH5%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "85%",
+        "text": "tiene todo que ver con el poder y todo que ver con el sexo, porque el modo en que se nos enseña a pensar el sexo tiene mucho que ver con una diferencia de poder, de potencia y de deseo frente a la cual, se nos dice, no se puede hacer nada."
+      },
+      {
+        "annotationId": "a1XS3KR1UVSA0L%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "85%",
+        "text": "Nosotras también aprendemos: si a los varones la cultura les enseña a tomar agresivamente “la dádiva femenina” para convertirse en verdaderos hombres, a las mujeres (identidades feminizadas) se nos enseña la contraparte: aprendemos a tolerar eso e, incluso, a desearlo; aprendemos que un hombre agresivo es un hombre sensual, que esa es la definición misma de sex appeal. El que no te toma por la fuerza no te desea con suficiente locura, el que no te cela no te ama, el que no insiste no te encuentra atractiva (y no hay peor tragedia que te pase eso)."
+      },
+      {
+        "annotationId": "aNGWE6F4LW3R7%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "86%",
+        "text": "Nos mueve el deseo y ese tiene que ser nuestro horizonte: queremos disidencia, no queremos orden. No queremos que ningún comité decida las reglas de los cortejos o, al menos, no podemos quererlo como feministas."
+      },
+      {
+        "annotationId": "a3I767IYN5JF32%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "86%",
+        "text": "Las universidades estadounidenses, en su intento por frenar las innumerables violaciones en sus campus, hablan del affirmative consent, que postula que un varón debe obtener un consentimiento explícito a cada paso del encuentro sexual. Hay algo de esta idea que me parece valioso: estimular conversaciones claras y desbancar el prejuicio de que preguntarle al otro lo que quiere es cortamambo (10) son dos cosas imprescindibles."
+      },
+      {
+        "annotationId": "a2ZYRJ6XLIM645%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "87%",
+        "text": "Pero no se trata de fórmulas mágicas sino de que realmente te importe lo que le pasa a la otra persona: no hay tecnicismo que valga frente al que está educado para no mirar a la mujer que tiene enfrente. De lograr esa reeducación se trata, no de compilar una lista inequívoca de reglas y señales que habiliten o no a avanzar."
+      },
+      {
+        "annotationId": "a1SH77NELK74O6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "88%",
+        "text": "La noción de castigo que subyace al escrache pone el acento en el señalamiento de culpables antes que en el cambio colectivo."
+      },
+      {
+        "annotationId": "aEK2HADPMEKV1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "88%",
+        "text": "Sigamos hablando, sigamos sanando pero, en lugar de sostener una sociedad del castigo y el escarnio, pongamos nuestras energías políticas en construir algo nuevo. No hablo (¡por favor!) de poner la otra mejilla sino de eso que estamos empezando a llamar cultura del consentimiento: (12) que lo que erotice sea nuestra calentura, antes que nuestra negativa, que una mujer deseante no sea “fácil” o incluso “bajapija” (porque “si no hay desafío se van las ganas”)."
+      },
+      {
+        "annotationId": "aT4S50Y0EWYW9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "88%",
+        "text": "¿Cómo se hace eso mientras sigan existiendo relaciones de poder y dependencia? ¿Podemos tener vínculos afectivos genuinos en un mundo de relaciones económicas precarizadas donde muchas veces tu subsistencia depende de caer bien, de sonreír, de hacerte querer?"
+      },
+      {
+        "annotationId": "a2V5S5APHU4QUY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "92%",
+        "text": "“Si la violación ha sido terrorismo”, escribe Rich, “la maternidad ha sido trabajo forzado. Pero no tiene por qué serlo”, (3) agrega. En esta aclaración se juega todo: ¿puede la maternidad ser distinta de lo que nos han enseñado que era? ¿Puede no ser esclavizante, alienante y despotenciante para las mujeres? ¿Qué hace falta para que no lo sea?"
+      },
+      {
+        "annotationId": "a3SIORA3A9QNCW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "97%",
+        "text": "La investigación demuestra que, de los 1.080.682 catalogados en las estadísticas oficiales como ni-ni, el 70% eran personas que realizaban tareas de cuidado de niños, ancianos o personas con capacidades diferentes. Para sorpresa de nadie, de ese 70%, el 95% son mujeres jóvenes que cuidan a sus hijos a tiempo completo."
+      },
+      {
+        "annotationId": "aPVW7O98SVNU6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "97%",
+        "text": "El Estado no puede decirte que la única alternativa para cuidar a tus hijos es quedarte en casa y, si lo único que ofrece es una licencia, dice Badinter, en algún sentido es ese el mensaje que te está enviando."
+      },
+      {
+        "annotationId": "a1QX76GW7GUHJF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "99%",
+        "text": "lo que propongo es la resistencia: a elegir entre estructuras heredadas e individualismo salvaje y a aceptar que esas son nuestras únicas opciones."
+      }
+    ]
+  },
+  {
+    "asin": "B079WV79TK",
+    "title": "It Doesn't Have to Be Crazy at Work",
+    "author": "Jason Fried",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1523530659i/39674332._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/39674332-it-doesn-t-have-to-be-crazy-at-work/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "aMFT7QY1M8QEE%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "Discomfort is the human response to a questionable or bad situation, whether that’s working long hours with no end in sight, exaggerating your business numbers to impress investors, or selling intimate user data to advertisers."
+      },
+      {
+        "annotationId": "a1IZJ3P5IPH2GL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "The best companies aren’t families. They’re supporters of families. Allies of families. They’re there to provide healthy, fulfilling work environments so that when workers shut their laptops at a reasonable hour, they’re the best husbands, wives, parents, siblings, and children they can be."
+      },
+      {
+        "annotationId": "a1D00SLXDW3BV%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "Respect the work that you’ve never done before. Remind yourself that other people’s jobs aren’t so simple. Results rarely come without effort. If momentum and experience are on your side, what is hard can masquerade as easy, but never forget that not having done something before doesn’t make it easy. It usually makes it hard."
+      },
+      {
+        "annotationId": "a2FZ1XKZ0MJLW4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "Managers need double the empathy, not half a ration."
+      },
+      {
+        "annotationId": "a3CLP013JDTHJG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "44%",
+        "text": "When you force yourself to focus on just the person and their work, not their glorified past, you also end up giving more people a chance."
+      },
+      {
+        "annotationId": "aV0NQQDFPO74N%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "46%",
+        "text": "We’ve found that nurturing untapped potential is far more exhilarating than finding someone who’s already at their peak. We hired many of our best people not because of who they were but because of who they could become."
+      },
+      {
+        "annotationId": "aUNLZ0AVBHT4F%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "57%",
+        "text": "Important topics need time, traction, and separation from the rest of the chatter. If something is being discussed in a chat room and it’s clearly too important to process one line at a time, we ask people to “write it up” instead."
+      },
+      {
+        "annotationId": "a3DD763GNLR5G4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "63%",
+        "text": "Culture is what culture does. Culture isn’t what you intend it to be. It’s not what you hope or aspire for it to be. It’s what you do. So do better."
+      },
+      {
+        "annotationId": "a58Z2VUAJ7WCD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "72%",
+        "text": "Are you building your company to last, or are you starting with an exit strategy in mind?"
+      },
+      {
+        "annotationId": "a9ZERTR4Y448U%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "76%",
+        "text": "You can do big things with small teams, but it’s a whole hell of a lot harder to do small things with big teams. And small things are often all that’s necessary."
+      },
+      {
+        "annotationId": "a2YTHE21OS5AYR%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "77%",
+        "text": "Happiness is shipping: finishing good work, sending it off, and then moving on to the next idea."
+      },
+      {
+        "annotationId": "a2OJFYCC1XALJQ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "88%",
+        "text": "It’s taken us a long time and a number of missteps to learn this core truth about selling: Sell new customers on the new thing and let old customers keep whatever they already have. This is the way to keep the peace and maintain the calm."
+      },
+      {
+        "annotationId": "a3D48CN4SPU1GY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "92%",
+        "text": "A business is a collection of choices. Every day is a new chance to make a new choice, a different choice."
+      }
+    ]
+  },
+  {
+    "asin": "B0062LQQUE",
+    "title": "La danza de la realidad (Ojo Del Tiempo)",
+    "author": "Alejandro Jodorowsky",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391631413i/20738856._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/20738856-la-danza-de-la-realidad/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a1G0XCXK37YQ35%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "«Soledad es no saber estar consigo mismo.»"
+      },
+      {
+        "annotationId": "aPS58Z069UMKY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "Tú no eres diferente. Todo lo que vas a ser, ya lo eres. Lo que vas a saber, ya lo sabes."
+      },
+      {
+        "annotationId": "a11K54GY8VANKB%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "7%",
+        "text": "«Te vas pero también aquí te quedas. Si las ramas crecen queriendo ocupar el cielo entero, las raíces nunca abandonan la tierra donde nacieron»."
+      },
+      {
+        "annotationId": "a1H68U8PGZO9YS%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Antes de ponerme a desarrollar ese que entonces consideraba el poder supremo del espíritu, me interrogué sobre cuál era mi objetivo cumbre. «¡Poder crearme un alma!» ¿Y el objetivo de la humanidad? No uno, sino tres: conocer la totalidad del universo, vivir tantos años como vive el universo, convertirse en la conciencia del universo."
+      },
+      {
+        "annotationId": "aJPF0R4VER5DY%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "18%",
+        "text": "me uno a la totalidad del dinero, lo hago mío: esa energía me invade como un torbellino, me da salud, me impulsa a dejar de pedir y a comenzar a invertir, me hace comprender que de cazador debo pasar a sembrador."
+      },
+      {
+        "annotationId": "a2PR29TP06BOJ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "18%",
+        "text": "Unido a la materia bajo todas sus formas, yo era lodo, diamante, oro, plomo, lava, piedra, nube, onda magnética, estallido eléctrico, huracán, océano, pluma. Amarrado a lo humano, unido a lo divino. Anclado en el presente, unido al pasado y al futuro. Anclado en la oscuridad, unido a la luz. Atado al dolor, unido a la euforia delirante de la vida eterna."
+      },
+      {
+        "annotationId": "a3LOQCQJMP1UW9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "Pensé: «Cuando recibo una noticia triste, no tengo ganas de moverme; me siento pesado, denso. Por el contrario, cuando la nueva es agradable, tengo ganas de danzar; me siento liviano, ágil. Los hechos que conozco por medio de palabras o de imágenes visuales, no me cambian el cuerpo pero sí la sensación que tengo de él. ¡Debe ser posible transformar a voluntad la percepción de mí mismo!»."
+      },
+      {
+        "annotationId": "a367A2U4SOVR2E%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "21%",
+        "text": "El ser vacío, pudiendo contener al universo, no sabe quién es, pero vive, crea, ama."
+      },
+      {
+        "annotationId": "a2JLGF78QHN5HT%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "23%",
+        "text": "la imagen que tenemos del otro no es el otro, es una representación. El mundo que nos imponen los sentidos depende de nuestra forma de verlo."
+      },
+      {
+        "annotationId": "a182OMOATMX44F%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "31%",
+        "text": "El error es disculpable, mientras se cometa una sola vez y en una sincera búsqueda de conocimiento."
+      },
+      {
+        "annotationId": "a2QDAQ2UYLUN6U%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "no se puede sanar a alguien, sólo se le puede enseñar a sanarse a sí mismo."
+      },
+      {
+        "annotationId": "a39U1RUGTB05Q8%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "Gracias a ellos pude comprender que la salud de una familia consiste en realizar una obra en común, que no hay un foso que separe a las generaciones, que la revuelta de los hijos contra los padres debe ser suplantada por la absorción de un conocimiento siempre, claro está, que la generación precedente se dé el trabajo de expandir su conciencia y transmitir lo adquirido."
+      },
+      {
+        "annotationId": "aF4GX9E3PPAKX%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "32%",
+        "text": "Es maravilloso ser niño cuando se es niño y terrible que en la temprana edad se nos obligue a ser adultos. También es terrible ser niño cuando se es adulto. Madurar es colocar al niño en su sitio, dejarlo vivir en nosotros pero no como amo sino como seguidor."
+      },
+      {
+        "annotationId": "a2PRREGFUNH237%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "«El mundo es como yo pienso que es. Mis males vienen de mi visión torcida. Si quiero sanar no es al mundo a quien debo tratar de cambiar sino a la opinión que tengo de él.»"
+      },
+      {
+        "annotationId": "a15KC3L71QF2LF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "Cuando aquel que se creía ciego se quita los anteojos oscuros, ve la luz. Esta oscuridad es la cárcel racional."
+      },
+      {
+        "annotationId": "a3HZSV6YYZKB24%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "34%",
+        "text": "Todas las finalidades se resumían en una sola: realizar las potencialidades humanas para después trascenderlas. Sacrificar lo personal para llegar a lo impersonal: nada es para mí que no sea para los demás."
+      },
+      {
+        "annotationId": "a334L4FN07HLR4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "39%",
+        "text": "«El tonto, cuando no sabe, cree que sabe. El sabio, cuando no sabe, sabe que no sabe. Pero cuando el sabio sabe, sabe que sabe. En cambio el tonto, cuando sabe, no sabe que sabe»."
+      },
+      {
+        "annotationId": "aNA4NVK9NMYED%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "39%",
+        "text": "«La vida es un camino gris: nunca nada es absolutamente malo, nunca nada es absolutamente bueno»,"
+      },
+      {
+        "annotationId": "a1EXB4LY4JMTNR%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "39%",
+        "text": "El diablo es el primer actor en el drama cósmico: imita a Dios. Nosotros los actores no somos dioses sino diablos."
+      },
+      {
+        "annotationId": "a2649E5Q7HCMZM%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "39%",
+        "text": "para ser tienes que aprender a no desear ser el otro."
+      },
+      {
+        "annotationId": "aEXPL17FHWX4S%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "40%",
+        "text": "(Años más tarde llegué al convencimiento de que el terapeuta que no está enfermo no puede ayudar a su paciente. Tratando de curar al otro se cura a sí mismo.)"
+      },
+      {
+        "annotationId": "a1RNVJL2KVW8YL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "42%",
+        "text": "«Piensa en la obra y no en el fruto»."
+      },
+      {
+        "annotationId": "a21M0AYDY0A458%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "49%",
+        "text": "aquello que nos atemoriza pierde toda su fuerza en el momento en que dejamos de combatirlo."
+      },
+      {
+        "annotationId": "aRQO02ZZ0747O%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "50%",
+        "text": "«Comprendí por fin lo que era el amor: es el agradecimiento al otro por existir...»."
+      },
+      {
+        "annotationId": "aW38BDO96ZX1G%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "51%",
+        "text": "Sabemos que, en la medida, que los otros nos recuerden, vivimos. Si nos olvidan, nos sentimos morir."
+      },
+      {
+        "annotationId": "aZIDHVMYA4FG6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "55%",
+        "text": "La verdad no está al final del camino sino que es la suma de las acciones que se hacen para conseguirla."
+      },
+      {
+        "annotationId": "aA4DSWOT55HPI%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "57%",
+        "text": "En el sueño lúcido se aprende que todo aquello que se desea con verdadera intensidad, es decir con fe, después de una espera paciente, se realiza. Sabiendo esto, debemos dejar de vivir como niños, siempre pidiendo, para vivir como adultos, invirtiendo nuestro capital vital."
+      },
+      {
+        "annotationId": "a28P9YOEAMYYC6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "57%",
+        "text": "La vida y la muerte son sólo un juego. Y el juego supremo es dejar de soñar, es decir, desaparecer de este universo onírico para integrarnos en aquel que lo sueña."
+      },
+      {
+        "annotationId": "a2HM2ZNBXP9Z03%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "59%",
+        "text": "«El saber y la risa se confunden.»"
+      },
+      {
+        "annotationId": "aPBNLRDCX0TS8%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "60%",
+        "text": "«El hombre que no ha realizado su libertad, es decir, que no ha cortado los lazos incestuosos con su madre y los que lo conectan con su familia y con su tierra, todo lo vive como una carga sin saber quién sostiene ese peso»,"
+      },
+      {
+        "annotationId": "a2S3F1WFQOT0ZA%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "60%",
+        "text": "Todo amor está basado en el conocimiento del otro; todo conocimiento del otro está basado en la experiencia compartida.»"
+      },
+      {
+        "annotationId": "a1RMUBCEZ6CBQG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "66%",
+        "text": "«Cuando se abre una flor, es primavera en todo el mundo»."
+      },
+      {
+        "annotationId": "a1E2MFU6GSRSAU%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "75%",
+        "text": "«Cuando se quiere agregar más agua a un vaso que está totalmente lleno, primero es necesario vaciarlo. Así, una mente llena de opiniones y especulaciones no puede aprender. Debemos vaciarla para que en ella se dé una condición de apertura»."
+      },
+      {
+        "annotationId": "a1VA5XUF1VRN2M%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "82%",
+        "text": "La Psicomagia se apoya fundamentalmente en el hecho de que el inconsciente acepta el símbolo y la metáfora, dándoles la misma importancia que a los hechos reales."
+      },
+      {
+        "annotationId": "a3OOYE65IUDVCI%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "91%",
+        "text": "«No es justo abandonar a quien no logra recibir. En cuanto sociedad, somos todos responsables de su mal. No sólo el árbol, el bosque entero está enfermo. Esa cadena de enfermedades, esa reproducción de daños de generación en generación, debe cesar algún día. Tiene que haber una manera de hacer ver al que no tiene ojos, de hacer oír al que no tiene oídos, de comunicarle el amor a quien tiene el corazón cerrado»."
+      },
+      {
+        "annotationId": "a1YJZGFJQ3M2KX%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "94%",
+        "text": "Si la realidad es como un sueño, debemos actuar en ella sin padecerla, tal como lo hacemos en un sueño lúcido, sabiendo que el mundo es aquello que pensamos que es."
+      }
+    ]
+  },
+  {
+    "asin": "B09VPKZR3G",
+    "title": "The Network State: How To Start a New Country",
+    "author": "Balaji S. Srinivasan",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1660498969i/60643059._SX120_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/60643059-the-network-state/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "aMB4D25IJOF6L%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "7%",
+        "text": "A key point is that we can apply all the techniques of startup companies to startup societies. Financing, attracting subscribers, calculating churn, doing customer support — there’s a playbook for all of that. It’s just Society-as-a-Service, the new SaaS."
+      },
+      {
+        "annotationId": "aG0VG6UX04FPZ%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "9%",
+        "text": "Only a civilization with a strong capacity for accurate microhistory could ever make it to the moon."
+      },
+      {
+        "annotationId": "a3TX33OHY5KUTF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "9%",
+        "text": "So, how could someone in the future (or even the present) know if a particular event they didn’t directly observe was real? The Bitcoin blockchain gives one answer. It is the most rigorous form of history yet known to man, a history that is technically and economically resistant to revision."
+      },
+      {
+        "annotationId": "a2MTM2KF1PRZH6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "14%",
+        "text": "History is the entire record of everything humanity has done. It’s a very rich data structure that we have only begun to even think of as a data structure."
+      },
+      {
+        "annotationId": "a2NEMQEONSR3L1%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "15%",
+        "text": "A political truth is true if everyone believes it to be true. Things like money, status, and borders are in this category. You can change these by rewriting facts in people’s brains. For example, the question of what a dollar is worth, who the president is, and where the border of a country is are all dependent on the ideas installed in people’s heads. If enough people change their minds, markets move, presidents change, and borders shift.37"
+      },
+      {
+        "annotationId": "a2D2K5FIJIT6A%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "15%",
+        "text": "Even at a very young age, a child believes he can appeal to a higher power, a Leviathan, a powerful man who can sweep the field of his enemies, including Robert from recess."
+      },
+      {
+        "annotationId": "aI0OGJVLE2PVF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "15%",
+        "text": "Every doctrine has its Leviathan, that prime mover who hovers above all. For a religion, it is God. For a political movement, it is the State. And for a cryptocurrency, it is the Network."
+      },
+      {
+        "annotationId": "a10QJL0DN6QSRE%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "15%",
+        "text": "The full global displacement of God by the State (something already clearly underway in France since 1789) led to the giant wars of the 20th century, Democratic Capitalism vs Nazism vs Communism. These new faiths replaced g-o-d with g-o-v, faiths which centered the State over God as the most powerful force on earth."
+      },
+      {
+        "annotationId": "a228SOIFJEG38V%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "16%",
+        "text": "Social > National. Social networks change many things, but a critical one is that they change the nature of community. Your community is your social network, not necessarily the people who live near you. When the network identity is more salient than the neighor relationship, it challenges the very premise of the Westphalian state, which is that (a) people who live geographically near each other share values and (b) therefore laws should be based on geographic boundaries. The alternative is that only people who are geodesically near each other in the social network share values, and therefore the laws that govern them should be based on network boundaries."
+      },
+      {
+        "annotationId": "a12EAVOUM49IUK%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "To be clear, the Network does not win every conflict with the State. In many cases the actual outcome is “State > Network.” Indeed, the conflict between these two Leviathans will shape this century like the conflict between the God and State Leviathans shaped the last."
+      },
+      {
+        "annotationId": "a3RHG3UMWYLBMB%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "17%",
+        "text": "Because the Bay Area’s monopoly is over. Technology has now globally decentralized into web3, and San Francisco (and even Silicon Valley) has now lost its position as the undisputed tech capital of the world."
+      },
+      {
+        "annotationId": "a2ULV9MCNHYODL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "18%",
+        "text": "As Larry Ellison put it, “choose your competitors carefully, because you’ll become a lot like them.”"
+      },
+      {
+        "annotationId": "aSQISMTXI2NJ6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "18%",
+        "text": "using the knowledge of all of humanity."
+      },
+      {
+        "annotationId": "a3E1BD6VKDOLPL%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "Again, the fundamental structure became digital."
+      },
+      {
+        "annotationId": "a2V9LC4K0LVGTD%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "Examples of pre-existing states integrating with the network include (a) El Salvador’s integration with the Bitcoin network, (b) Wyoming’s decentralized autonomous organization (DAO) law and Norway’s cap table bill, which are integrations with the Ethereum network, and (c) places like Estonia and Singapore, where every government workflow is already online. In each of these cases, cities and states are fusing with networks to ship new services that are useful to citizens."
+      },
+      {
+        "annotationId": "aCGDL337Y6P83%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "That is, whatever the surface justification, these are hostile takeovers of centralized tech companies by centralized states. Once taken over, these companies will be turned into total surveillance machines and tools of social control."
+      },
+      {
+        "annotationId": "a361PLI202DB9P%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "The benign version of the network/state synthesis we’ve just described offers greater administrative efficiency, greater economic returns, and greater levels of citizen consent. But it doesn’t yet offer greater purpose, or meaning."
+      },
+      {
+        "annotationId": "a32HDBD66HMIAP%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "The concept is that you don’t want or need to start an entirely new religion to build a startup society, but you do need a moral innovation of some kind."
+      },
+      {
+        "annotationId": "a35PI7M6S8FIUG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "The consumer-citizen is coming to enjoy a great society, not to sacrifice to make a society great."
+      },
+      {
+        "annotationId": "a1WDT69XFBPJAF%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "You want to recruit producers, not consumers, and for that, you’ll need a purpose."
+      },
+      {
+        "annotationId": "a1GXMBXMEEQWAP%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "19%",
+        "text": "The concept of three Leviathans explains why a network state is now feasible. The Network is a new sheriff in town, a new Leviathan, a new force that is more powerful than the State in many contexts. That has changed the balance of power. While syntheses are arising, so are conflicts between Network and State. And that explains much of today’s instability: when Leviathans wrestle, when Godzilla fights King Kong, the earth trembles."
+      }
+    ]
+  },
+  {
+    "asin": "B08XB4SCZW",
+    "title": "Un instante eterno. Filosofía de la longevidad (Biblioteca de Ensayo / Serie mayor nº 117)",
+    "author": "Pascal Bruckner",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1616922300i/57550957._SX120_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/57550957-un-instante-eterno-filosof-a-de-la-longevidad/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a32ad0a7d-3dfd-46b5-a702-02836526b3b6%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "7%",
+        "text": "Envejecer significa entrar en el orden del cálculo: todo se nos cuenta, cada día que pasa hace que las opciones escaseen más, nos obliga a discernir."
+      },
+      {
+        "annotationId": "a5d82c9a9-f559-4817-a6cc-f65b75e71ce0%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "7%",
+        "text": "«esa manera que tiene la vida de no terminar las frases»."
+      },
+      {
+        "annotationId": "accaef624-4e72-4aea-9d46-6c85a12dd09f%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "7%",
+        "text": "Envejecer solo es tolerable si continuamos teniendo un cuerpo y una mente decentes."
+      }
+    ]
+  },
+  {
+    "asin": "B074YD4B3X",
+    "title": "Un reino demasiado breve",
+    "author": "Mauro Libertella",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1506799594i/36330873._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/36330873-un-reino-demasiado-breve/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "ae3907a39-9d6d-4afd-b201-fa55deee7295%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "2%",
+        "text": "El amor genera la ilusión de que el lenguaje es recíproco."
+      },
+      {
+        "annotationId": "a90aea509-2793-4407-8a95-a436e506094d%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "25%",
+        "text": "La relación crecía y al mismo tiempo se iba ajando, porque siempre estamos en proceso de perder algo."
+      },
+      {
+        "annotationId": "a9a91a532-ed96-4ce0-a465-fbadda95ebce%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "29%",
+        "text": "Se ha dicho que no son las alegrías las que traman una vida de felicidad ni son las desdichas las que hacen una vida infeliz, sino que hay un tejido fino e imperceptible, hecho de banalidades, que es el que decide todo."
+      },
+      {
+        "annotationId": "ad68d4df6-7d98-4c2c-8b43-219c237f62a9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "61%",
+        "text": "Los amantes son la más eficaz usina de contenidos, una máquina perfecta de generar temas."
+      },
+      {
+        "annotationId": "ac56aeb38-ac00-4b0e-ab54-d0ef8d034311%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "62%",
+        "text": "Y, sin embargo, nada de eso les importaba, porque lo que define ese enamoramiento es justamente la negación de todo conflicto, una indiferencia conmovedora ante la evidencia que pueden haber recabado de experiencias anteriores. Así vivieron durante meses."
+      },
+      {
+        "annotationId": "a36efcd11-4e7a-4832-830e-028dc88fb425%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "69%",
+        "text": "¿En qué momento algo se vuelve irreversible?"
+      },
+      {
+        "annotationId": "ac03fe3f6-0444-4dda-a253-359f1199b967%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "73%",
+        "text": "La teoría es contrafáctica y por eso no se puede comprobar, pero tiene la fuerza irrefutable de la convicción."
+      },
+      {
+        "annotationId": "a2fbc277f-b331-4570-bb8c-df36cb7d231d%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "79%",
+        "text": "Ella se relacionaba así con el mundo, de modo épico, y en ese sentido su vida era un deporte de riesgo: nadie puede caminar todo el tiempo por la cornisa de la tragedia y no caerse."
+      },
+      {
+        "annotationId": "a17Y6Z0427AZ0C%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "81%",
+        "text": "Todo adquiere un brillo inusual antes de desaparecer."
+      },
+      {
+        "annotationId": "a906e812a-43bd-4287-8ffa-702802e8c176%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "83%",
+        "text": "Han dicho (han escrito) que liberar el cuerpo, desvestirse, estar desnudo, renunciar al pudor y gritar son las pruebas más incontrastables del abandono, de la entrega física al amor. Y esa es la diferencia radical con la amistad. La amistad no pide pruebas corporales."
+      }
+    ]
+  },
+  {
+    "asin": "B00ADNP2ZM",
+    "title": "Who Owns The Future?",
+    "author": "Jaron Lanier",
+    "imageUrl": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1388872588i/18923754._SY180_.jpg",
+    "bookUrl": "https://www.goodreads.com/notes/18923754-who-owns-the-future/46795449-diego-peralta?ref=abp",
+    "annotations": [
+      {
+        "annotationId": "a1cf3c71f-35a7-4750-ae2d-04129bfa79d3%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "2%",
+        "text": "Throughout human history, humans have been their own worst enemies, and whenever someone is oppressing someone else, the oppressor seeks to control the tools of communication."
+      },
+      {
+        "annotationId": "ad6aaf2d6-bda2-4a55-9a69-93d6c6160bb9%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "2%",
+        "text": "Because digital technology is still somewhat novel, it’s possible to succumb to an illusion that there is only one way to design it."
+      },
+      {
+        "annotationId": "aa90e02d3-a2b5-4919-8e30-496fce0cefc5%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "The disruption and decentralization of power coincides with an intense and seemingly unbounded concentration of power."
+      },
+      {
+        "annotationId": "a5d75ab4f-c584-4775-8279-ec3b47ab93d4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "People are created equal, but computers are not. A top computer can bring limitless wealth and influence to that lucky computer’s owner and the onset of insecurity, austerity and unemployment for everyone else."
+      },
+      {
+        "annotationId": "a45e9f6b5-f852-4f64-b5a1-d7583e0b6717%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "3%",
+        "text": "Since networking got cheap and computers became enormous, the financial sector has grown fantastically in proportion to the rest of the economy, even though it has done so by putting the rest of the economy at increased risk. This is precisely what happens naturally, without any evil plan, if you have a more effective computer than anyone else in an open network. Your superior calculation ability allows you to choose the least risky options for yourself, leaving riskier options for everyone else."
+      },
+      {
+        "annotationId": "a9593ed95-b4ad-4cd1-adbd-2ff8b6caf493%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "Back at the dawn of personal computing, the ideal that drove most of us was that computers were tools for leveraging human intelligence to ever-greater achievement and fulfillment."
+      },
+      {
+        "annotationId": "ab8e7439e-2d89-4628-865e-e3c4f05b1ad2%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "In order to make tech into something that empowers people, people have to be willing to act as if we can handle being powerful."
+      },
+      {
+        "annotationId": "a3K0K9MZYX29XW%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "If we demand free services in the present, we must also learn that we’ll actually pay a price for them in the future. We must demand an information economy in which a rising tide raises all boats, because the alternative is an unbounded concentration of power. A surveillance economy is neither sustainable nor democratic."
+      },
+      {
+        "annotationId": "a2PZLE2SMFWZC4%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "When will we grow proud enough to be a match for our own inventions?"
+      },
+      {
+        "annotationId": "a15762f3c-cb17-4bfc-b5bc-71ed602af624%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "4%",
+        "text": "Networks need a great number of people to participate in them to generate significant value. But when they do, only a small number of people get paid. That has the net effect of centralizing wealth and limiting overall economic growth."
+      },
+      {
+        "annotationId": "a13ab07aa-0bc0-40df-a0c9-346e2be370cd%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "The wise course is to consider in advance how we can live in the long term with a high degree of automation."
+      },
+      {
+        "annotationId": "a1MZWIZ04M2JWG%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "Popular digital designs do not treat people as being ‘special enough.’ People are treated as small elements in a bigger information machine, when in fact people are the only sources or destinations of information, or indeed of any meaning to the machine at all. My goal is to portray an alternate future in which people are treated appropriately as being special."
+      },
+      {
+        "annotationId": "a2U5Q2RRX14NYM%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "5%",
+        "text": "This is a book about futuristic economics, but it’s really about how we can remain human beings as our machines become so sophisticated that we can perceive them as autonomous."
+      },
+      {
+        "annotationId": "aLYRZHMUHD461%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "8%",
+        "text": "No matter how petty a flaw might be in a utopia, that flaw is where the full fury of power seeking will be focused."
+      },
+      {
+        "annotationId": "a3OSH8BBYN560K%7C-0-%7C",
+        "hasNote": false,
+        "locationPercentage": "8%",
+        "text": "So we begin with the simple question of how to design digital networks to deliver more help than harm in aligning human intention to meet great challenges."
+      }
+    ]
+  }
+]
