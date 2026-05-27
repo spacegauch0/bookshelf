@@ -46,20 +46,30 @@ window.__books.openDetail = function (item, book) {
   var b = [];
   var highlights = book.highlights || window.__books.findAnnotations(book);
   if (highlights && highlights.length > 0) {
-    b.push('<div class="hl-slider" id="hl-slider">');
-    b.push('<h3>Highlights &amp; Annotations <span class="hl-counter" id="hl-counter">1/' + highlights.length + '</span></h3>');
-    b.push('<div class="hl-stage"><div class="hl-track" id="hl-track">');
-    highlights.forEach(function (hl) {
+    if (highlights.length === 1) {
+      var hl = highlights[0];
       var text = typeof hl === "string" ? hl : hl.text;
       var pct = hl.locationPercentage || "";
-      b.push('<div class="hl-card"><p>' + text + '</p>' + (pct ? '<cite>' + pct + '</cite>' : '') + '</div>');
-    });
-    b.push('</div></div>');
-    b.push('<div class="hl-nav">');
-    b.push('<button id="hl-prev" disabled><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3L5 7l4 4"/></svg></button>');
-    b.push('<div class="hl-dots" id="hl-dots"></div>');
-    b.push('<button id="hl-next"' + (highlights.length <= 1 ? ' disabled' : '') + '><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l4 4-4 4"/></svg></button>');
-    b.push('</div></div>');
+      b.push('<div class="hl-slider">');
+      b.push('<h3>Highlight</h3>');
+      b.push('<div class="hl-stage"><div class="hl-card" style="width:100%"><p>' + text + '</p>' + (pct ? '<cite>' + pct + '</cite>' : '') + '</div></div>');
+      b.push('</div>');
+    } else {
+      b.push('<div class="hl-slider" id="hl-slider">');
+      b.push('<h3>Highlights &amp; Annotations <span class="hl-counter" id="hl-counter">1/' + highlights.length + '</span></h3>');
+      b.push('<div class="hl-stage"><div class="hl-track" id="hl-track">');
+      highlights.forEach(function (hl) {
+        var text = typeof hl === "string" ? hl : hl.text;
+        var pct = hl.locationPercentage || "";
+        b.push('<div class="hl-card"><p>' + text + '</p>' + (pct ? '<cite>' + pct + '</cite>' : '') + '</div>');
+      });
+      b.push('</div></div>');
+      b.push('<div class="hl-nav">');
+      b.push('<button id="hl-prev" disabled><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3L5 7l4 4"/></svg></button>');
+      b.push('<div class="hl-dots" id="hl-dots"></div>');
+      b.push('<button id="hl-next"' + (highlights.length <= 1 ? ' disabled' : '') + '><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 3l4 4-4 4"/></svg></button>');
+      b.push('</div></div>');
+    }
   }
   if (book.description) {
     var d = book.description;
