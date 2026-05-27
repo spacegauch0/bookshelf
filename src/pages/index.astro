@@ -1,26 +1,11 @@
 ---
 import books from "../data/books.json";
 import annotationsRaw from "../data/annotations.json";
+import clippingsRaw from "../data/clippings-annotations.json";
 
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
-
-const repeats = 6;
-const allBooks = [];
-for (let r = 0; r < repeats; r++) {
-  allBooks.push(...shuffle(books));
-}
-
-// Pre-compute annotation matching at build time
-const annotationsList = Array.isArray(annotationsRaw)
-  ? annotationsRaw.map((a) => ({ title: a.title?.trim(), highlights: (a.annotations || []).map((h) => h.text) }))
-  : [];
+// Merge both annotation sources
+const allAnnotations = [...(Array.isArray(annotationsRaw) ? annotationsRaw : []), ...(Array.isArray(clippingsRaw) ? clippingsRaw : [])];
+const annotationsList = allAnnotations.map((a) => ({ title: a.title?.trim(), highlights: (a.annotations || []).map((h) => typeof h === "string" ? h : h.text) }));
 
 function attachHighlights(book) {
   const t = book.title.toLowerCase().trim();
@@ -34,6 +19,21 @@ function attachHighlights(book) {
 }
 
 const enrichedBooks = books.map(attachHighlights);
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+const repeats = 6;
+const allBooks = [];
+for (let r = 0; r < repeats; r++) {
+  allBooks.push(...shuffle(enrichedBooks));
+}
 ---
 
 <!doctype html>

@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "fetch": "node scripts/fetch-books.mjs"
+    "fetch": "node scripts/fetch-books.mjs",
+    "clippings": "node scripts/parse-clippings.mjs"
   },
   "dependencies": {
     "astro": "^6.3.8",
