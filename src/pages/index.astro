@@ -274,8 +274,10 @@ for (let r = 0; r < repeats; r++) {
       .tb { gap:2px; padding:4px 5px; top:12px; }
       .tb-brand { display:none; }
       .tb-divider { display:none; }
+      .tb-search { position:static; }
       .tb-search input { width:120px; font-size:14px; padding:8px 10px 8px 30px; }
       .tb-search input:focus { width:150px; }
+      .tb-search-results { left:-5px; right:-5px; top:calc(100% + 4px); border-radius:16px; }
       .tb-search-icon { left:8px; width:16px; height:16px; }
       .tb-select { font-size:12px; padding:4px 24px 4px 8px; background-position:right 6px center; }
       .tb-chip-hl { font-size:12px; padding:4px 10px; }
@@ -283,8 +285,10 @@ for (let r = 0; r < repeats; r++) {
 
     @media (max-width:400px) {
       .tb { padding:3px 4px; }
+      .tb-search { position:static; }
       .tb-search input { width:90px; font-size:13px; padding:7px 8px 7px 26px; }
       .tb-search input:focus { width:110px; }
+      .tb-search-results { left:-4px; right:-4px; top:calc(100% + 3px); border-radius:14px; }
       .tb-search-icon { left:6px; width:14px; height:14px; }
       .tb-select { font-size:11px; padding:3px 20px 3px 6px; background-position:right 5px center; }
       .tb-chip-hl { font-size:11px; padding:3px 8px; }
