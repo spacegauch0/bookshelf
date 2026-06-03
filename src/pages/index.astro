@@ -115,52 +115,56 @@ for (let r = 0; r < repeats; r++) {
 
     /* Toolbar — macOS Spotlight style */
     .tb {
-      position:fixed; top:16px; left:50%; transform:translateX(-50%); z-index:100;
-      display:flex; align-items:center; gap:2px;
+      position:fixed; top:24px; left:50%; transform:translateX(-50%); z-index:100;
+      display:flex; align-items:center; gap:3px;
       background:rgba(28,28,30,0.85); backdrop-filter:blur(28px) saturate(1.8);
       border:1px solid rgba(255,255,255,0.08); border-radius:9999px;
-      padding:4px 6px; box-shadow:0 4px 24px rgba(0,0,0,0.5), 0 0 0 0.5px rgba(255,255,255,0.06) inset;
+      padding:6px 9px; box-shadow:0 4px 24px rgba(0,0,0,0.5), 0 0 0 0.5px rgba(255,255,255,0.06) inset;
+      max-width:calc(100vw - 32px);
+      overflow:hidden;
     }
     .tb-brand {
-      font-size:12px; font-weight:600; color:#888;
+      font-size:18px; font-weight:600; color:#888;
       font-family:system-ui,-apple-system,sans-serif;
-      padding:6px 8px 6px 12px; white-space:nowrap;
+      padding:6px 8px 6px 18px; white-space:nowrap;
       letter-spacing:-0.01em;
+      display:flex; align-items:center; gap:10px;
     }
+    .tb-logo { flex-shrink:0; }
     .tb-divider {
-      width:1px; height:20px; background:rgba(255,255,255,0.08);
-      margin:0 2px; flex-shrink:0;
+      width:1px; height:30px; background:rgba(255,255,255,0.08);
+      margin:0 3px; flex-shrink:0;
     }
     .tb-search {
       position:relative;
     }
     .tb-search input {
-      width:180px; background:none; border:none;
-      color:#ccc; font-size:13px; padding:8px 14px 8px 32px;
+      width:270px; background:none; border:none;
+      color:#ccc; font-size:19px; padding:12px 21px 12px 48px;
       outline:none; font-family:system-ui,-apple-system,sans-serif;
       letter-spacing:-0.01em;
       transition:width 0.35s cubic-bezier(0.25,0.46,0.45,0.94);
     }
-    .tb-search input:focus { width:240px; }
+    .tb-search input:focus { width:360px; }
     .tb-search input::placeholder { color:#555; }
     .tb-search-icon {
-      position:absolute; left:10px; top:50%; transform:translateY(-50%);
+      position:absolute; left:15px; top:50%; transform:translateY(-50%);
       color:#666; pointer-events:none; transition:color 0.2s;
     }
     .tb-search:focus-within .tb-search-icon { color:#888; }
     .tb-search-results {
-      position:absolute; top:calc(100% + 8px); left:0; right:0;
+      position:absolute; top:calc(100% + 12px); left:0; right:0;
       background:rgba(15,15,15,0.9); backdrop-filter:blur(24px) saturate(1.5);
-      border:1px solid rgba(255,255,255,0.08); border-radius:12px;
-      max-height:360px; overflow-y:auto;
+      border:1px solid rgba(255,255,255,0.08); border-radius:18px;
+      max-height:540px; overflow-y:auto;
       display:none; box-shadow:0 12px 40px rgba(0,0,0,0.5);
       opacity:0; transform:translateY(-8px);
       transition:opacity 0.2s ease, transform 0.25s cubic-bezier(0.25,0.46,0.45,0.94);
     }
     .tb-search-results.on { display:block; opacity:1; transform:translateY(0); }
     .tb-result {
-      display:flex; align-items:center; gap:12px;
-      padding:10px 14px; cursor:pointer;
+      display:flex; align-items:center; gap:18px;
+      padding:15px 21px; cursor:pointer;
       transition:background 0.15s;
       opacity:0; transform:translateX(-8px);
       animation:tbSlideIn 0.25s cubic-bezier(0.25,0.46,0.45,0.94) forwards;
@@ -176,18 +180,18 @@ for (let r = 0; r < repeats; r++) {
     @keyframes tbSlideIn {
       to { opacity:1; transform:translateX(0); }
     }
-    .tb-result:first-child { border-radius:12px 12px 0 0; }
-    .tb-result:last-child { border-radius:0 0 12px 12px; }
+    .tb-result:first-child { border-radius:18px 18px 0 0; }
+    .tb-result:last-child { border-radius:0 0 18px 18px; }
     .tb-result:hover { background:rgba(255,255,255,0.05); }
     .tb-result-cover {
-      width:28px; height:42px; border-radius:2px 4px 4px 2px;
+      width:42px; height:63px; border-radius:3px 6px 6px 3px;
       background-size:cover; background-position:center;
       flex-shrink:0;
     }
     .tb-result-info { min-width:0; }
-    .tb-result-title { font-size:12px; color:#ccc; line-height:1.3; font-family:system-ui,-apple-system,sans-serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
-    .tb-result-author { font-size:10px; color:#666; font-family:system-ui,-apple-system,sans-serif; }
-    .tb-result-empty { padding:16px 14px; font-size:12px; color:#555; text-align:center; font-family:system-ui,sans-serif; }
+    .tb-result-title { font-size:18px; color:#ccc; line-height:1.3; font-family:system-ui,-apple-system,sans-serif; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+    .tb-result-author { font-size:15px; color:#666; font-family:system-ui,-apple-system,sans-serif; }
+    .tb-result-empty { padding:24px 21px; font-size:18px; color:#555; text-align:center; font-family:system-ui,sans-serif; }
 
     .tb-search-results::-webkit-scrollbar { width:4px; }
     .tb-search-results::-webkit-scrollbar-track { background:transparent; }
@@ -195,12 +199,14 @@ for (let r = 0; r < repeats; r++) {
 
     /* Filter chips inside toolbar */
     .tb-filters {
-      display:flex; align-items:center; gap:3px;
-      padding-right:4px;
+      display:flex; align-items:center; gap:4px;
+      padding-right:6px;
+      overflow-x:auto;
     }
+    .tb-filters::-webkit-scrollbar { display:none; }
     .tb-chip {
       background:rgba(255,255,255,0.04); border:1px solid rgba(255,255,255,0.06);
-      color:#666; font-size:11px; padding:4px 12px; border-radius:9999px;
+      color:#666; font-size:16px; padding:6px 18px; border-radius:9999px;
       cursor:pointer; font-family:system-ui,-apple-system,sans-serif;
       font-weight:500; white-space:nowrap;
       transition:all 0.25s cubic-bezier(0.25,0.46,0.45,0.94);
@@ -235,13 +241,22 @@ for (let r = 0; r < repeats; r++) {
     }
     .grid__item .grid__item-img { transition:opacity 0.4s cubic-bezier(0.25,0.46,0.45,0.94); }
 
+    @media (max-width:900px) {
+      .tb-brand { font-size:15px; padding:5px 6px 5px 14px; gap:8px; }
+      .tb-brand .tb-logo { width:20px; height:25px; }
+      .tb-search input { width:200px; font-size:16px; padding:10px 16px 10px 36px; }
+      .tb-search input:focus { width:260px; }
+      .tb-search-icon { left:12px; }
+      .tb-chip { font-size:14px; padding:5px 14px; }
+    }
+
     @media (max-width:640px) {
-      .tb { gap:1px; padding:3px 4px; top:12px; }
+      .tb { gap:2px; padding:5px 6px; top:18px; }
       .tb-brand { display:none; }
       .tb-divider { display:none; }
-      .tb-search input { width:120px; font-size:12px; padding:7px 10px 7px 28px; }
-      .tb-search input:focus { width:150px; }
-      .tb-chip { font-size:10px; padding:3px 8px; }
+      .tb-search input { width:180px; font-size:18px; padding:10px 15px 10px 42px; }
+      .tb-search input:focus { width:225px; }
+      .tb-chip { font-size:15px; padding:5px 12px; }
     }
 
     @media (min-width:65em) { :root { --col-count:8; } }
@@ -437,10 +452,13 @@ for (let r = 0; r < repeats; r++) {
 </div>
 
 <div class="tb" id="toolbar">
-  <span class="tb-brand">Diego's Bookshelf</span>
+  <span class="tb-brand">
+    <svg class="tb-logo" width="24" height="30" viewBox="13.34 2.51 73.32 94.97" fill="#fff"><path d="m19.48 19.25c0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10938 0 0.21875-0.03125 0.32812-0.089843l21.16-12.969c0.28906-0.17969 0.39062-0.57031 0.21094-0.85938-0.17969-0.28906-0.57031-0.39062-0.85938-0.21094l-21.16 12.969c-0.28906 0.17969-0.39062 0.57031-0.21094 0.85938z"/><path d="m23.52 21.699c0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10938 0 0.21875-0.03125 0.32812-0.089844l21.16-12.969c0.28906-0.17969 0.39063-0.57031 0.21094-0.85938-0.17969-0.28906-0.57031-0.39062-0.85938-0.21094l-21.16 12.969c-0.28906 0.17969-0.39062 0.57031-0.21094 0.85938z"/><path d="m43.738 33.969c0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10938 0 0.21875-0.03125 0.32812-0.089843l21.16-12.969c0.28906-0.17969 0.39063-0.57031 0.21094-0.85938-0.17969-0.28906-0.57031-0.39062-0.85938-0.21094l-21.16 12.969c-0.28906 0.17969-0.39062 0.57031-0.21094 0.85938z"/><path d="m47.781 36.422c0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10938 0 0.21875-0.03125 0.32812-0.089844l21.16-12.969c0.28906-0.17969 0.39062-0.57031 0.21094-0.85937-0.17969-0.28906-0.57031-0.39063-0.85938-0.21094l-21.16 12.969c-0.28906 0.17969-0.39063 0.57031-0.21094 0.85938z"/><path d="m86.629 82.32s0.03125-0.089843 0.03125-0.14062v-49.238s-0.011718-0.050781-0.011718-0.070312c0-0.070313-0.019532-0.12891-0.039063-0.19922s-0.039063-0.12891-0.070313-0.19141c-0.011718-0.019531-0.011718-0.050781-0.019531-0.070313-0.019531-0.03125-0.050781-0.050781-0.078125-0.078125-0.039062-0.058593-0.089844-0.10938-0.14062-0.14844-0.050781-0.039063-0.10156-0.070313-0.14844-0.10156-0.058594-0.03125-0.10938-0.058593-0.17188-0.078125-0.058594-0.019531-0.12891-0.03125-0.19141-0.039062-0.039062 0-0.070312-0.019532-0.10937-0.019532-0.03125 0-0.050782 0.011719-0.070313 0.011719-0.058594 0-0.12891 0.019531-0.19141 0.039063-0.070313 0.019531-0.12891 0.039062-0.19141 0.070312-0.019531 0.011719-0.050781 0.011719-0.070312 0.019532l-21.16 12.969c-2.6094 1.6016-5.8398 1.6016-8.4609 0.019531l-2.6211-1.5898c-0.71875-0.44141-1.1484-1.1992-1.1484-2.0391 0-0.83984 0.42188-1.6016 1.1406-2.0391l21.16-12.969c0.46875-0.28906 0.62109-0.89844 0.32812-1.3789-0.28906-0.46875-0.89844-0.62109-1.3789-0.32812l-21.16 12.969c-2.6094 1.6016-5.8398 1.6016-8.4609 0.019531l-2.6211-1.5898c-0.71875-0.44141-1.1484-1.1992-1.1484-2.0391s0.42188-1.6016 1.1406-2.0391l21.16-12.969c0.46875-0.28906 0.62109-0.89844 0.32812-1.3789-0.28906-0.46875-0.89844-0.62109-1.3789-0.32812l-6.9414 4.25-21.16 12.969c-2.6016 1.6016-5.8398 1.6016-8.4609 0.019531l-2.6211-1.5898c-0.71875-0.44141-1.1484-1.1992-1.1484-2.0391s0.42188-1.6016 1.1406-2.0391l21.16-12.969 6.9414-4.25c0.46875-0.28906 0.62109-0.89844 0.32812-1.3789-0.28906-0.46875-0.89844-0.62109-1.3789-0.32812l-21.16 12.969c-2.6094 1.6016-5.8398 1.6016-8.4609 0.019531l-2.6289-1.5898c-0.71875-0.44141-1.1484-1.1992-1.1484-2.0391s0.42187-1.6016 1.1406-2.0391l21.16-12.969c0.46875-0.28906 0.62109-0.89844 0.32812-1.3789-0.28906-0.46875-0.89844-0.62109-1.3789-0.32813l-21.145 12.957c-1.3203 0.80859-2.1016 2.2109-2.1016 3.75 0 0.089844 0.011718 0.17188 0.019531 0.26172 0 0.019532-0.011719 0.039063-0.011719 0.058594v11.559 0.019531 0.058594 11.84 0.019531 0.058594 25.328 0.019531c0 1.5508 0.78906 2.9609 2.1094 3.75l2.6289 1.5898c0.16016 0.089844 0.30078 0.17188 0.44922 0.25v5.9883 0.011719c0 1.5508 0.78906 2.9609 2.1094 3.7617l2.6289 1.5898c1.6211 0.98828 3.4297 1.4805 5.25 1.4805 1.8203 0 3.6484-0.5 5.2812-1.5l3.8086-2.3281v0.10156 0.011719c0 1.5508 0.78906 2.9609 2.1094 3.75l2.6289 1.5898c1.6094 0.98047 3.4102 1.4805 5.2305 1.4805 0.71875 0 1.4492-0.089844 2.1719-0.25v0.78906c0 1.5508 0.78906 2.9609 2.1094 3.75l2.6289 1.5898c1.6211 0.98828 3.4297 1.4805 5.25 1.4805 1.8203 0 3.6602-0.5 5.2891-1.5l21.16-12.961s0.050782-0.050781 0.078125-0.070312c0.058594-0.050781 0.10938-0.089844 0.16016-0.14844 0.039062-0.039062 0.058593-0.089843 0.089843-0.12891 0.039063-0.058594 0.070313-0.12891 0.089844-0.19922 0.019531-0.050781 0.019531-0.10156 0.03125-0.16016zm-71.277-47.379s0.078126 0.058594 0.12109 0.078125l2.6016 1.5781c0.14844 0.10156 0.30859 0.17969 0.46875 0.26953v5.8203c-0.011719 0.14844-0.011719 0.28906 0 0.37109v0.019531 3.3906l-2.0312-1.2383c-0.71875-0.42969-1.1406-1.1914-1.1484-2.0117v-8.2812zm5.1875 11.629s0.070313 0.050782 0.10938 0.070313l2.6211 1.5898c1.6211 0.98047 3.4414 1.4688 5.25 1.4688 1.8086 0 3.6602-0.5 5.2812-1.4883l3.8086-2.3281v0.089844 0.011719 0.050781 9.4102l-4.8516 2.9805c-2.5898 1.5898-5.8281 1.6016-8.4609 0.019531l-2.6211-1.5898c-0.69922-0.42969-1.1094-1.1211-1.1484-1.9102v-8.3789zm19.07 3.1094s0.070313 0.050781 0.10938 0.078124l2.6211 1.6016c1.6094 0.96875 3.4219 1.4688 5.2305 1.4688 0.71875 0 1.4492-0.089844 2.1602-0.25v0.67188 0.23828 8.9492c-2.1484 0.60156-4.4297 0.30078-6.3594-0.87891l-2.6289-1.6016c-0.71094-0.42969-1.1406-1.1797-1.1484-2.0195v-8.2695zm12.129 13.531v-0.011719-6.1602s0.070313 0.050782 0.10938 0.070313l2.6211 1.5898c1.6211 0.98047 3.4414 1.4805 5.25 1.4805s3.6602-0.5 5.2891-1.5l19.641-12.031v9.5703l-20.68 12.68c-2.6016 1.5898-5.8398 1.6016-8.4609 0.019531l-2.6211-1.5898c-0.67969-0.42188-1.1016-1.1289-1.1484-1.9805zm2.7422-16.422c1.6211 0.98047 3.4414 1.4805 5.25 1.4805 1.8086 0 3.6602-0.5 5.2891-1.5l19.641-12.039v9.5703l-20.68 12.672c-2.6094 1.6016-5.8516 1.6016-8.4609 0.019532l-2.6289-1.6016c-0.67969-0.41016-1.0898-1.1016-1.1406-1.9805v-2.1094-0.011719-6.1719s0.070312 0.050781 0.10938 0.078124l2.6211 1.5898zm-12.129-7.3594c1.6211 0.98047 3.4414 1.4805 5.25 1.4805 0.75 0 1.4883-0.10938 2.2305-0.26953-0.050781 0.26953-0.078125 0.53906-0.078125 0.82031 0 0.089843 0.011719 0.17187 0.019532 0.25 0 0.019531-0.011719 0.039062-0.011719 0.070312v8.7383c-2.1484 0.60156-4.4297 0.28906-6.3594-0.87109l-2.6211-1.5898c-0.71875-0.44141-1.1406-1.1992-1.1484-2.0312v-8.2617s0.070313 0.050781 0.10938 0.078125l2.6211 1.5898zm-19.082-3.1094c1.6211 0.98047 3.4414 1.4805 5.25 1.4805 1.8086 0 3.6602-0.5 5.2891-1.5l3.8086-2.3281v0.12891c0 0.089844 0.011718 0.17188 0.019531 0.25 0 0.019532-0.011719 0.039063-0.011719 0.070313v9.1289l-4.8516 2.9688c-2.6016 1.5898-5.8398 1.6016-8.4609 0.019531l-2.6211-1.5898c-0.69141-0.41016-1.1016-1.1094-1.1406-1.9102v-8.3711s0.070313 0.050781 0.10938 0.078125l2.6211 1.5898zm-5.1914-11.621c1.3594 0.82031 2.8516 1.2812 4.3594 1.4219l-1.8203 1.1094c-1.3203 0.80859-2.1016 2.2109-2.1016 3.75 0 0.089843 0.011719 0.17188 0.019531 0.25 0 0.019531-0.011718 0.039062-0.011718 0.070312v3.25l-2.0391-1.2383c-0.71875-0.42969-1.1406-1.1797-1.1484-2.0117v-8.2695s0.070312 0.050781 0.10937 0.078125l2.6289 1.5898zm-1.5898 45.941c-0.71875-0.42969-1.1406-1.1914-1.1484-2.0312v-0.011719-21.73s0.070312 0.058593 0.10938 0.078124l2.6289 1.6016c0.16016 0.089844 0.30078 0.17188 0.44922 0.25v6.0195 0.17188 0.019531 16.859l-2.0391-1.2383zm16.273 13.188c-2.6016 1.6016-5.8398 1.6094-8.4492 0.019531l-2.6289-1.5898c-0.71875-0.42969-1.1406-1.1914-1.1484-2.0312v-21.73s0.070313 0.050781 0.10938 0.078125l2.6211 1.5898c1.6289 0.98047 3.4492 1.4688 5.2617 1.4688 1.8086 0 3.6602-0.5 5.2812-1.5l3.8008-2.3281v0.10156 0.011719 0.050781 22.898l-4.8516 2.9688zm10.617 3.1328-2.6289-1.5898c-0.71875-0.44141-1.1406-1.1797-1.1406-2.0312v-21.73s0.070313 0.050781 0.10938 0.078125l2.6211 1.5898c1.6094 0.98047 3.4102 1.4805 5.2305 1.4805 0.71875 0 1.4492-0.089843 2.1719-0.25v0.67188 0.23828 22.43c-2.1484 0.60156-4.4297 0.30078-6.3594-0.87891zm20.59 7.3398c-2.6094 1.6016-5.8398 1.6094-8.4492 0.019531l-2.6289-1.5898c-0.71875-0.44141-1.1406-1.1797-1.1406-2.0391v-2.0586-0.011718-19.648s0.070312 0.050782 0.10938 0.070313l2.6289 1.6016c1.6211 0.98047 3.4414 1.4688 5.2617 1.4688s3.6602-0.5 5.2891-1.4883l19.641-12.039v23.059l-20.68 12.672z"/><path d="m55.871 41.328c0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10938 0 0.21875-0.03125 0.32812-0.089844l21.16-12.969c0.28906-0.17969 0.39062-0.57031 0.21094-0.85937-0.17969-0.28906-0.57031-0.39063-0.85937-0.21094l-21.16 12.969c-0.28906 0.17969-0.39062 0.57031-0.21094 0.85938z"/><path d="m59.922 43.781c0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10938 0 0.21875-0.03125 0.32812-0.089843l21.16-12.969c0.28906-0.17969 0.39062-0.57031 0.21094-0.85938-0.17969-0.28906-0.57031-0.39062-0.85938-0.21094l-21.16 12.969c-0.28906 0.17969-0.39062 0.57031-0.21094 0.85938z"/><path d="m46.891 17.238c-0.17969-0.28906-0.57031-0.39062-0.85938-0.21094l-21.16 12.969c-0.28906 0.17969-0.39062 0.57031-0.21094 0.85938 0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10938 0 0.21875-0.03125 0.32812-0.089844l21.16-12.969c0.28906-0.17969 0.39062-0.57031 0.21094-0.85938z"/><path d="m28.922 32.461c-0.28906 0.17969-0.39062 0.57031-0.21094 0.85937 0.12109 0.19141 0.32031 0.30078 0.53125 0.30078 0.10937 0 0.21875-0.03125 0.32812-0.089844l21.16-12.969c0.28906-0.17969 0.39062-0.57031 0.21094-0.85938-0.17969-0.28906-0.57031-0.39062-0.85938-0.21094z"/></svg>
+    Diego's Bookshelf
+  </span>
   <span class="tb-divider"></span>
   <div class="tb-search">
-    <svg class="tb-search-icon" width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="6" cy="6" r="4"/><path d="M9.5 9.5L13 13"/></svg>
+    <svg class="tb-search-icon" width="21" height="21" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="6" cy="6" r="4"/><path d="M9.5 9.5L13 13"/></svg>
     <input type="text" id="tb-input" placeholder="Search books..." autocomplete="off" />
     <div class="tb-search-results" id="tb-results"></div>
   </div>
