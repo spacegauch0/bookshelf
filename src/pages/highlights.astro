@@ -1,0 +1,440 @@
+---
+import books from "../data/books.json";
+import annotationsRaw from "../data/annotations.json";
+import clippingsRaw from "../data/clippings-annotations.json";
+
+const allAnnotations = [
+  ...(Array.isArray(annotationsRaw) ? annotationsRaw : []),
+  ...(Array.isArray(clippingsRaw) ? clippingsRaw : []),
+];
+
+const titleOverrides = {
+  "la sabiduria de la inseguridad": "The Wisdom of Insecurity: A Message for an Age of Anxiety",
+};
+
+const bookMap = {};
+books.forEach((b) => { bookMap[b.title.toLowerCase().trim()] = b; });
+
+const booksWithHighlights = [];
+
+allAnnotations.forEach((entry) => {
+  const highlights = (entry.annotations || []).map((h) =>
+    typeof h === "string" ? h : h.text
+  );
+  if (highlights.length === 0) return;
+
+  const t = (titleOverrides[entry.title.toLowerCase().trim()] || entry.title).toLowerCase().trim();
+  let matchedBook =
+    bookMap[t] ||
+    Object.values(bookMap).find((b) => {
+      const bt = b.title.toLowerCase().trim();
+      return bt === t || bt.includes(t) || t.includes(bt);
+    });
+
+  booksWithHighlights.push({
+    title: matchedBook ? matchedBook.title : entry.title,
+    author: matchedBook ? matchedBook.author : entry.author || "Unknown",
+    coverUrl: matchedBook ? matchedBook.imageUrl : entry.imageUrl || "",
+    highlights,
+  });
+});
+
+booksWithHighlights.sort((a, b) => b.highlights.length - a.highlights.length);
+
+const totalHighlights = booksWithHighlights.reduce(
+  (s, b) => s + b.highlights.length,
+  0
+);
+
+const accentColors = [
+  "#7cb868", "#d0b030", "#b86868", "#687ab8", "#b868b0",
+  "#68b0b8", "#b8a068", "#8868b8", "#68b880", "#b86888",
+  "#8ab868", "#b09068", "#6868b8", "#b8b068", "#68b868",
+  "#b86868", "#6a9a58",
+];
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Highlights — Diego's Bookshelf</title>
+  <style is:global>
+    *, *::after, *::before { box-sizing:border-box; margin:0; padding:0; }
+
+    :root {
+      --bg: #080808;
+      --card-bg: rgba(255,255,255,0.015);
+      --text: #ccc;
+      --muted: #555;
+    }
+
+    html { scroll-behavior: smooth; }
+    body {
+      color: #fff;
+      background: var(--bg);
+      font-family: Georgia, "Times New Roman", serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      line-height: 1;
+    }
+
+    /* Hero */
+    .hero {
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      text-align: center; padding: 120px 32px 80px;
+    }
+    .hero h1 {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      font-weight: 900; letter-spacing: -0.03em;
+      color: #f0f0f0; margin-bottom: 16px;
+    }
+    .hero .sub {
+      font-size: 1rem; color: #555;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 400;
+    }
+    .hero .sub em { font-style: normal; color: #888; }
+
+    /* Nav */
+    .nav-back {
+      position: fixed; top: 16px; left: 16px; z-index: 100;
+      display: flex; align-items: center; gap: 8px;
+      background: rgba(15,15,15,0.75); backdrop-filter: blur(20px) saturate(1.5);
+      border: 1px solid rgba(255,255,255,0.08); border-radius: 16px;
+      padding: 8px 16px; box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+      color: #888; text-decoration: none; font-size: 13px;
+      font-family: system-ui, -apple-system, sans-serif; font-weight: 500;
+      transition: color 0.2s, border-color 0.2s;
+    }
+    .nav-back:hover { color: #fff; border-color: rgba(255,255,255,0.15); }
+    .nav-back svg { flex-shrink: 0; }
+
+    /* Book sections */
+    .book-section {
+      max-width: 1100px; margin: 0 auto; padding: 0 24px 120px;
+      transition: opacity 0.4s cubic-bezier(0.25,0.46,0.45,0.94);
+    }
+    .book-section.dimmed {
+      opacity: 0.15; pointer-events: none;
+    }
+
+    .book-header {
+      display: flex; align-items: flex-end; gap: 32px;
+      margin-bottom: 48px; position: relative;
+    }
+    .book-cover {
+      width: 100px; height: 150px; border-radius: 3px 8px 8px 3px;
+      background-size: cover; background-position: center;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4); flex-shrink: 0;
+    }
+    .book-info h2 {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 1.75rem; font-weight: 800; color: #e8e8e8;
+      letter-spacing: -0.02em; margin-bottom: 4px;
+    }
+    .book-info .author {
+      font-size: 0.85rem; color: #666;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    .book-info .count {
+      font-size: 0.65rem; color: #444; text-transform: uppercase;
+      letter-spacing: 0.1em; margin-top: 6px;
+      font-family: system-ui, monospace;
+    }
+
+    /* Highlights grid */
+    .hl-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1px;
+      background: rgba(255,255,255,0.03);
+      border: 1px solid rgba(255,255,255,0.04);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+
+    .hl-card {
+      position: relative;
+      padding: 32px 28px;
+      background: var(--card-bg);
+      overflow: hidden;
+      transition: background 0.3s;
+    }
+    .hl-card:hover { background: rgba(255,255,255,0.03); }
+
+    .hl-card::before {
+      content: "\201C";
+      position: absolute; top: -8px; left: 12px;
+      font-size: 8rem; line-height: 1;
+      font-family: Georgia, "Times New Roman", serif;
+      color: rgba(255,255,255,0.025);
+      pointer-events: none;
+    }
+
+    .hl-card .quote {
+      position: relative; z-index: 1;
+      font-size: 1.1rem; line-height: 1.7; font-style: italic;
+      color: #bbb;
+      font-family: Georgia, "Times New Roman", serif;
+      word-break: break-word; overflow-wrap: break-word; hyphens: auto;
+      margin-bottom: 14px;
+    }
+
+    .hl-card .accent {
+      position: absolute; bottom: 0; left: 0; right: 0; height: 2px;
+      background: var(--hl-accent, #333);
+      opacity: 0; transition: opacity 0.3s;
+    }
+    .hl-card:hover .accent { opacity: 1; }
+
+    /* Share bar */
+    .share {
+      position: relative; z-index: 1;
+      display: flex; align-items: center; gap: 6px;
+      opacity: 0; transition: opacity 0.2s;
+    }
+    .hl-card:hover .share { opacity: 1; }
+    .share button {
+      background: none; border: 1px solid rgba(255,255,255,0.06);
+      color: #555; font-size: 0.6rem; padding: 3px 10px;
+      border-radius: 100px; cursor: pointer;
+      font-family: system-ui, monospace;
+      text-transform: uppercase; letter-spacing: 0.08em;
+      transition: all 0.2s;
+    }
+    .share button:hover { color: #999; border-color: rgba(255,255,255,0.15); background: rgba(255,255,255,0.03); }
+    .share .copied { color: #7cb868; border-color: rgba(124,184,104,0.3); font-size: 0.55rem; display: none; }
+
+    /* Divider between books */
+    .book-divider {
+      max-width: 1100px; margin: 0 auto; padding: 0 24px;
+    }
+    .book-divider hr {
+      border: none; border-top: 1px solid rgba(255,255,255,0.04);
+      margin-bottom: 80px;
+    }
+
+    /* Search bar — macOS Spotlight style */
+    .hl-search-wrap {
+      display: flex; justify-content: center;
+      max-width: 560px; margin: 0 auto 48px; padding: 0 24px;
+    }
+    .hl-search {
+      display: flex; align-items: center; gap: 10px;
+      width: 100%;
+      background: rgba(28,28,30,0.85); backdrop-filter: blur(28px) saturate(1.8);
+      border: 1px solid rgba(255,255,255,0.08);
+      border-radius: 9999px;
+      padding: 10px 18px;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5), 0 0 0 0.5px rgba(255,255,255,0.06) inset;
+      transition: border-color 0.2s, box-shadow 0.2s;
+    }
+    .hl-search:focus-within {
+      border-color: rgba(255,255,255,0.14);
+      box-shadow: 0 4px 32px rgba(0,0,0,0.6), 0 0 0 0.5px rgba(255,255,255,0.1) inset;
+    }
+    .hl-search svg { flex-shrink: 0; color: #666; transition: color 0.2s; }
+    .hl-search:focus-within svg { color: #888; }
+    .hl-search input {
+      flex: 1; background: none; border: none; color: #ddd;
+      font-size: 14px; outline: none; min-width: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+      letter-spacing: -0.01em;
+    }
+    .hl-search input::placeholder { color: #555; }
+
+    /* No results */
+    .no-results {
+      display: none; text-align: center; padding: 60px 24px;
+      color: #555; font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.95rem;
+    }
+
+    /* Footer */
+    .page-footer {
+      text-align: center; padding: 48px 24px 80px;
+      font-family: system-ui, -apple-system, sans-serif;
+      font-size: 0.75rem; color: #333;
+    }
+    .page-footer a { color: #555; text-decoration: none; transition: color 0.2s; }
+    .page-footer a:hover { color: #999; }
+
+    /* Scroll to top */
+    .scroll-top {
+      position: fixed; bottom: 24px; right: 24px; z-index: 100;
+      width: 40px; height: 40px; border-radius: 50%;
+      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(8,8,8,0.85); backdrop-filter: blur(12px);
+      color: #666; cursor: pointer; display: flex;
+      align-items: center; justify-content: center;
+      opacity: 0; pointer-events: none;
+      transition: opacity 0.3s, color 0.2s, border-color 0.2s;
+    }
+    .scroll-top.on { opacity: 1; pointer-events: auto; }
+    .scroll-top:hover { color: #fff; border-color: rgba(255,255,255,0.2); }
+
+    @media (max-width: 768px) {
+      .hero { padding: 100px 24px 60px; }
+      .book-section { padding: 0 16px 80px; }
+      .book-header { gap: 16px; margin-bottom: 32px; }
+      .book-cover { width: 60px; height: 90px; }
+      .book-info h2 { font-size: 1.25rem; }
+      .hl-grid { grid-template-columns: 1fr; }
+      .hl-card { padding: 24px 20px; }
+      .hl-card .quote { font-size: 0.95rem; }
+      .hl-card::before { font-size: 5rem; top: -4px; left: 8px; }
+      .nav-back { top: 12px; left: 12px; padding: 6px 12px; font-size: 12px; }
+      .hl-search input { font-size: 13px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 1.75rem; }
+      .hero .sub { font-size: 0.8rem; }
+      .book-header { flex-direction: column; align-items: flex-start; gap: 12px; }
+    }
+  </style>
+</head>
+<body>
+
+<a href="/" class="nav-back">
+  <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3L5 7l4 4"/></svg>
+  Bookshelf
+</a>
+
+<section class="hero">
+  <h1>
+    {booksWithHighlights.length > 0
+      ? `${totalHighlights} Highlights`
+      : "Highlights"}
+  </h1>
+  <p class="sub">Across <em>{booksWithHighlights.length} books</em></p>
+</section>
+
+<div class="hl-search-wrap">
+  <div class="hl-search">
+    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="6.5" cy="6.5" r="4.5"/><path d="M10 10l3.5 3.5"/></svg>
+    <input type="text" id="hl-filter" placeholder="Search highlights..." autocomplete="off" />
+  </div>
+</div>
+
+<div id="no-results" class="no-results">No highlights match your search.</div>
+
+{
+  booksWithHighlights.map((book, bi) => {
+    const accent = accentColors[bi % accentColors.length];
+    return (
+      <>
+        <section
+          class="book-section"
+          data-book-title={book.title.toLowerCase()}
+          data-book-author={book.author.toLowerCase()}
+        >
+          <div class="book-header">
+            {book.coverUrl && (
+              <div
+                class="book-cover"
+                style={`background-image:url(${book.coverUrl})`}
+              ></div>
+            )}
+            <div class="book-info">
+              <h2>{book.title}</h2>
+              <p class="author">{book.author}</p>
+              <p class="count">{book.highlights.length} highlight{book.highlights.length !== 1 ? "s" : ""}</p>
+            </div>
+          </div>
+
+          <div class="hl-grid">
+            {book.highlights.map((text) => (
+              <div
+                class="hl-card"
+                data-text={text.toLowerCase()}
+                style={`--hl-accent:${accent}`}
+              >
+                <p class="quote">{text}</p>
+                <div class="share">
+                  <button class="btn-copy" data-text={JSON.stringify(text)}>
+                    Copy
+                  </button>
+                  <span class="copied">Copied!</span>
+                </div>
+                <div class="accent"></div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {bi < booksWithHighlights.length - 1 && (
+          <div class="book-divider"><hr /></div>
+        )}
+      </>
+    );
+  })
+}
+
+<button class="scroll-top" id="scroll-top" aria-label="Scroll to top">
+  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10l4-4 4 4"/></svg>
+</button>
+
+<footer class="page-footer">
+  <a href="/">← Back to Bookshelf</a>
+</footer>
+
+<script>
+  // Search filter
+  const filterInput = document.getElementById("hl-filter");
+  const sections = document.querySelectorAll(".book-section");
+  const noResults = document.getElementById("no-results");
+
+  filterInput.addEventListener("input", () => {
+    const q = filterInput.value.toLowerCase().trim();
+    let anyVisible = false;
+
+    sections.forEach((sec) => {
+      const cards = sec.querySelectorAll(".hl-card");
+      let sectionHasVisible = false;
+
+      cards.forEach((card) => {
+        const match = !q || card.dataset.text.includes(q);
+        card.style.display = match ? "" : "none";
+        if (match) sectionHasVisible = true;
+      });
+
+      if (q && !sectionHasVisible) {
+        sec.classList.add("dimmed");
+      } else {
+        sec.classList.remove("dimmed");
+      }
+
+      if (sectionHasVisible || !q) anyVisible = true;
+    });
+
+    noResults.style.display = anyVisible || !q ? "none" : "block";
+  });
+
+  // Copy to clipboard
+  document.addEventListener("click", (e) => {
+    const btn = e.target.closest(".btn-copy");
+    if (!btn) return;
+    const text = JSON.parse(btn.dataset.text);
+    navigator.clipboard.writeText(text).then(() => {
+      const copied = btn.nextElementSibling;
+      copied.style.display = "inline";
+      setTimeout(() => { copied.style.display = "none"; }, 1500);
+    });
+  });
+
+  // Scroll to top
+  const scrollTop = document.getElementById("scroll-top");
+  window.addEventListener("scroll", () => {
+    scrollTop.classList.toggle("on", window.scrollY > 400);
+  });
+  scrollTop.addEventListener("click", () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
+</script>
+
+</body>
+</html>
