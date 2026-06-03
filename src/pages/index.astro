@@ -157,11 +157,10 @@ for (let r = 0; r < repeats; r++) {
       background:rgba(15,15,15,0.9); backdrop-filter:blur(24px) saturate(1.5);
       border:1px solid rgba(255,255,255,0.08); border-radius:18px;
       max-height:540px; overflow-y:auto;
-      display:none; box-shadow:0 12px 40px rgba(0,0,0,0.5);
-      opacity:0; transform:translateY(-8px);
-      transition:opacity 0.2s ease, transform 0.25s cubic-bezier(0.25,0.46,0.45,0.94);
+      box-shadow:0 12px 40px rgba(0,0,0,0.5);
+      opacity:0; pointer-events:none;
     }
-    .tb-search-results.on { display:block; opacity:1; transform:translateY(0); }
+    .tb-search-results.on { opacity:1; pointer-events:auto; }
     .tb-result {
       display:flex; align-items:center; gap:18px;
       padding:15px 21px; cursor:pointer;
@@ -562,6 +561,7 @@ for (let r = 0; r < repeats; r++) {
   var tbResults = document.getElementById("tb-results");
   var tbSelect = document.getElementById("tb-select");
   var activeFilter = "all";
+  var searchTimer = null;
 
   function applyGridFilter() {
     var items = document.querySelectorAll(".grid__item");
@@ -580,17 +580,10 @@ for (let r = 0; r < repeats; r++) {
     applyGridFilter();
   });
 
-  var searchTimer = null;
-  function renderResults(query) {
-    if (!query || query.length < 1) {
-      tbResults.classList.remove("on");
-      return;
-    }
-    var q = query.toLowerCase();
-    var matches = books.filter(function (b) {
-      return b.title.toLowerCase().indexOf(q) !== -1 || b.author.toLowerCase().indexOf(q) !== -1;
-    }).slice(0, 8);
+  var lastQuery = "";
+  var lastIds = "";
 
+  function showResults(matches) {
     if (matches.length === 0) {
       tbResults.innerHTML = '<div class="tb-result-empty">No books found</div>';
     } else {
@@ -603,33 +596,56 @@ for (let r = 0; r < repeats; r++) {
           '</div></div>';
       }).join("");
     }
-    tbResults.style.transition = "none";
     tbResults.classList.add("on");
-    tbResults.offsetHeight;
-    tbResults.style.transition = "";
+  }
+
+  function performSearch() {
+    var q = tbInput.value.trim();
+    if (!q) {
+      hideResults();
+      return;
+    }
+    if (q === lastQuery) return;
+    lastQuery = q;
+    var matches = books.filter(function (b) {
+      return b.title.toLowerCase().indexOf(q.toLowerCase()) !== -1 || b.author.toLowerCase().indexOf(q.toLowerCase()) !== -1;
+    }).slice(0, 8);
+    var ids = matches.map(function (b) { return b.id; }).join(",");
+    if (ids === lastIds) return;
+    lastIds = ids;
+    showResults(matches);
+  }
+
+  function hideResults() {
+    clearTimeout(searchTimer);
+    lastQuery = "";
+    lastIds = "";
+    tbResults.classList.remove("on");
   }
 
   tbInput.addEventListener("input", function () {
     clearTimeout(searchTimer);
     var val = tbInput.value.trim();
-    // Hide instantly on empty, debounce when there's text
     if (!val) {
-      tbResults.classList.remove("on");
+      hideResults();
     } else {
-      searchTimer = setTimeout(function () { renderResults(val); }, 200);
+      searchTimer = setTimeout(performSearch, 200);
     }
   });
 
   tbInput.addEventListener("focus", function () {
     var val = tbInput.value.trim();
-    if (val) {
-      clearTimeout(searchTimer);
-      searchTimer = setTimeout(function () { renderResults(val); }, 100);
-    }
+    if (val) performSearch();
   });
 
-  document.addEventListener("click", function (e) {
-    if (!e.target.closest(".tb-search")) tbResults.classList.remove("on");
+  tbInput.addEventListener("blur", function () {
+    // Delay hide so click on result can fire
+    setTimeout(hideResults, 150);
+  });
+
+  tbResults.addEventListener("mousedown", function (e) {
+    // Prevent blur from hiding results before click registers
+    e.preventDefault();
   });
 
   tbResults.addEventListener("click", function (e) {
@@ -640,7 +656,7 @@ for (let r = 0; r < repeats; r++) {
     if (!book || window.__books.transitioning) return;
     var card = document.querySelector('.grid__item[data-id="' + id + '"]');
     if (card) {
-      tbResults.classList.remove("on");
+      hideResults();
       tbInput.value = "";
       window.__books.openDetail(card, book);
     }
@@ -659,7 +675,7 @@ for (let r = 0; r < repeats; r++) {
   document.getElementById("lb-close").addEventListener("click", window.__books.closeDetail);
   document.addEventListener("keydown", function (e) {
     if (e.key === "Escape") {
-      if (tbResults.classList.contains("on")) { tbResults.classList.remove("on"); return; }
+      if (tbResults.classList.contains("on")) { hideResults(); return; }
       if (window.__books.transitioning) window.__books.closeDetail();
     }
   });
